@@ -86,7 +86,8 @@ public class SmbPersonalPageStepDefinition {
         smbReviewPage.wait(smbReviewPage.getSmbGettingStartedPageModel().extradisc);
         browserActions.scrollToWebElement(seleniumdriver, smbReviewPage.getSmbGettingStartedPageModel().extradisc);
         Thread.sleep(1000);
-        browserActions.clickUsingEnter(seleniumdriver.getWebDriver(), smbReviewPage.getSmbGettingStartedPageModel().extradisc);
+//        browserActions.clickUsingEnter(seleniumdriver.getWebDriver(), smbReviewPage.getSmbGettingStartedPageModel().extradisc);
+        browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbGettingStartedPageModel().extradisc);
         log.info("Before you begin disclosure Accepted");
         Thread.sleep(1000);
 

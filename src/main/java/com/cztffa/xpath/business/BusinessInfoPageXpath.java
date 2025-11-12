@@ -26,5 +26,5 @@ public class BusinessInfoPageXpath {
     public static final String DATEOFESTABLISHMENT = "//div[contains(@class, 'tf-input-group')]//input[starts-with(@aria-labelledby, 'DateOfEstablishment') and @type='text']";
     public static final String RELATIONCODE = "//tf-expansion-panel//div[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='RelationCode__c']//input";
     public static final String RELATION = "//div[@class='dropdown-item'][contains(text(),'%s')]";
-    public static final String BUSINESSINFONEXTBUTON = "//button[@class='btn btn-primary float-end tf-step-action-next']";
+    public static final String BUSINESSINFONEXTBUTON = "//button[normalize-space()='Next']";
 }

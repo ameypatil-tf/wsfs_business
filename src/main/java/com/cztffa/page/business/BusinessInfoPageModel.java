@@ -17,8 +17,8 @@ public class BusinessInfoPageModel {
     public WebElement startApplicationButton;
     
     public String businessName = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-input[@t-model='Party__r.LegalName__c']/descendant::input";
-    public String dbaname = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-input[@t-model='Party__r.DoingBusinessAs__c']/descendant::input";
-    public String year = "//tf-number[@t-model='Party__r.AddressXrefs__r.0.PeriodInYears__c']";
+    public String dbaName = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-input[@t-model='Party__r.DoingBusinessAs__c']/descendant::input";
+    public String year = "//tf-number[@t-model='Party__r.AddressXrefs__r.0.PeriodInYears__c']/descendant::input";
     public String businessType = "//label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]";
     
     @FindBy(xpath = BusinessInfoPageXpath.BUSINESSTYPESELECTSOLE)
@@ -63,14 +63,14 @@ public class BusinessInfoPageModel {
     
     @FindBy(xpath = BusinessInfoPageXpath.TIN)
     public WebElement tin;
-    public String IamNotSubjectTo = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-checkbox[@t-model='Accepted__c']";
+    public String IamNotSubjectTo = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']";
 
     public String naicsCode = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-dropdown[@t-model='Party__r.IndustryClassificationValue__c']/descendant::input";
     
     @FindBy(xpath = BusinessInfoPageXpath.SOYBEANFARMINGSELECTED)
     public WebElement soybeanFarmingSelected;
     
-    public String dateOfEstablishment = "//div[contains(@class, 'tf-input-group')]//input[starts-with(@aria-labelledby, 'DateOfEstablishment') and @type='text']";
+    public String dateOfEstablishment = "//tf-date[@t-model='Party__r.EstablishmentDate__c']//descendant::input";
     
     public String relationCode = "//tf-expansion-panel//div[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='RelationCode__c']//input";
     

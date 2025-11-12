@@ -70,12 +70,12 @@ public class BusinessInfoPage extends SmbProductSelectorPage {
 				applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().businessName, index),
 				business.getBusinessName());
 		assertTrue(true);
-        Thread.sleep(500);
+        Thread.sleep(1000);
 
         log.info("Entering DBA name");
         browserActions.enterText(getSeleniumdriver(),
-                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().dbaname, index),
-                business.getDbaname());
+                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().dbaName, index),
+                business.getDbaName());
         assertTrue(true);
         Thread.sleep(1000);
 
@@ -119,37 +119,41 @@ public class BusinessInfoPage extends SmbProductSelectorPage {
         log.info("after addresstext");
         Thread.sleep(500);
 
-        WebElement city = applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().city, index);
-        browserActions.scrollToWebElement(getSeleniumdriver(),city);
-        Thread.sleep(500);
-        wait(getSeleniumdriver().getWebDriver(),city);
-        browserActions.enterText(getSeleniumdriver(),
-                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().city, index),
-                business.getCity());
-        Thread.sleep(500);
-        if ((validation == null) || validation != null && !validation.isSkipStateDropdown()) {
-            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-                    applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().state, index));
-            wait(getBusinessInfoPageModel().stateOptApply);
-            browserActions.clickApply(getSeleniumdriver().getWebDriver(), getBusinessInfoPageModel().stateOptApply);
-            log.info("After entering state drop downn ");
-        }
-        Thread.sleep(500);
-        WebElement zip = applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().zip, index);
-        browserActions.scrollToWebElement(getSeleniumdriver(),zip);
-        Thread.sleep(500);
-        wait(zip);
-        browserActions.enterText(getSeleniumdriver(),
-                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().zip, index),
-                business.getZip());
-        waitForSpinnerToDisappear();
-        log.info("After entering Zipcode");
+//        WebElement city = applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().city, index);
+//        browserActions.scrollToWebElement(getSeleniumdriver(),city);
+//        Thread.sleep(500);
+//        wait(getSeleniumdriver().getWebDriver(),city);
+//        browserActions.enterText(getSeleniumdriver(),
+//                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().city, index),
+//                business.getCity());
+//        Thread.sleep(500);
+//        if ((validation == null) || validation != null && !validation.isSkipStateDropdown()) {
+//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
+//                    applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().state, index));
+//            wait(getBusinessInfoPageModel().stateOptApply);
+//            browserActions.clickApply(getSeleniumdriver().getWebDriver(), getBusinessInfoPageModel().stateOptApply);
+//            log.info("After entering state drop downn ");
+//        }
+//        Thread.sleep(500);
+//        WebElement zip = applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().zip, index);
+//        browserActions.scrollToWebElement(getSeleniumdriver(),zip);
+//        Thread.sleep(500);
+//        wait(zip);
+//        browserActions.enterText(getSeleniumdriver(),
+//                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().zip, index),
+//                business.getZip());
+//        waitForSpinnerToDisappear();
+//        log.info("After entering Zipcode");
         Thread.sleep(500);
 
 
-        log.info("Entering year ");
-        browserActions.enterText(getSeleniumdriver(),
-                applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().year, index),
+        log.info("Entering year");
+        WebElement year = applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().year, index);
+        browserActions.scrollToWebElement(getSeleniumdriver(),year);
+        Thread.sleep(500);
+        browserActions.scrollToWebElement(getSeleniumdriver(),year);
+        Thread.sleep(500);
+        browserActions.enterText(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().year, index),
                 business.getYear());
         assertTrue(true);
         Thread.sleep(500);
@@ -221,6 +225,7 @@ public class BusinessInfoPage extends SmbProductSelectorPage {
                 applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().naicsCode, index));
         Thread.sleep(500);
         waitForSpinnerToDisappear();
+        Thread.sleep(500);
         log.info("selecting preferred id method {}", business.getNaicsCode());
         if (business.getNaicsCode().equalsIgnoreCase("soybean farming")) {
             browserActions.clickButton(getSeleniumdriver(),
@@ -276,17 +281,17 @@ public class BusinessInfoPage extends SmbProductSelectorPage {
 
 
 
-		if(index!=0) {
-			WebElement relationCode=applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relationCode, index);
-			browserActions.scrollToWebElement(getSeleniumdriver(),applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relationCode, index));
-
-			wait(relationCode);
-			browserActions.enterText(getSeleniumdriver(),
-					applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relationCode, index),
-					business.getRelationship());
-
-			browserActions.clickApply(getSeleniumdriver().getWebDriver(),applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relation, business.getRelationship()));
-			log.info("After entering Relationcode"+business.getRelationship());
-		}
+//		if(index!=0) {
+//			WebElement relationCode=applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relationCode, index);
+//			browserActions.scrollToWebElement(getSeleniumdriver(),applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relationCode, index));
+//
+//			wait(relationCode);
+//			browserActions.enterText(getSeleniumdriver(),
+//					applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relationCode, index),
+//					business.getRelationship());
+//
+//			browserActions.clickApply(getSeleniumdriver().getWebDriver(),applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().relation, business.getRelationship()));
+//			log.info("After entering Relationcode"+business.getRelationship());
+//		}
 	}
 }
