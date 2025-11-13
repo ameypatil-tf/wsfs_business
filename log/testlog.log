@@ -12485,3 +12485,401 @@ No cause returned
 2025-11-13 15:51:27,936 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (fc74f1dd4196b8aed25a9de9ba35d773)] -> xpath: //button[contains(text(),'Continue')]]
 2025-11-13 15:51:28,005 - com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition -INFO - i am on relation page
 2025-11-13 15:51:28,035 - com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition -INFO - i am on Due dillegence page
+2025-11-13 15:55:22,892 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 15:55:22,892 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - [@SMBFlow]
+2025-11-13 15:55:22,892 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO -  tag name ============ @SMBFlow
+2025-11-13 15:55:22,908 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 15:55:22,908 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting of home page
+2025-11-13 15:55:22,908 - com.cztffa.page.base.SmbBasePage -INFO - Initializing the properties
+2025-11-13 15:55:22,908 - com.cztffa.page.base.SmbBasePage -INFO - Successfully loaded the properties
+2025-11-13 15:55:22,957 - io.github.bonigarcia.wdm.cache.ResolutionCache -INFO - Clearing WebDriverManager resolution cache
+2025-11-13 15:55:23,968 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+2025-11-13 15:55:24,003 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+2025-11-13 15:55:24,003 - com.cztffa.webbrowser.ChromeBrowserSetupImpl -INFO - Launching chrome driver
+2025-11-13 15:55:25,365 - com.cztffa.application.ChromeWebApplication -INFO - Chrome launched
+2025-11-13 15:55:29,926 - com.cztffa.driver.SeleniumUIDriver -INFO - Application launched
+2025-11-13 15:55:29,926 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - loaded home page 
+2025-11-13 15:55:29,930 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Before click of business tab
+2025-11-13 15:55:34,314 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-13 15:55:34,402 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicking all products for submissionId: 1
+2025-11-13 15:55:35,651 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked product: NonProfitChecking
+2025-11-13 15:55:35,651 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked on all products
+2025-11-13 15:55:35,696 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - On click of checkout btn
+2025-11-13 15:55:41,877 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-13 15:55:46,967 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of checkout btn
+2025-11-13 15:55:47,006 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of proceed btn
+2025-11-13 15:55:47,094 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - On getting started page
+2025-11-13 15:55:48,117 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before filling the details
+2025-11-13 15:55:48,231 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=Brother, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-13 15:55:50,035 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-13 15:55:50,162 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Details entered
+2025-11-13 15:55:50,162 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Personal Information added for submissionId: 1
+2025-11-13 15:55:50,163 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 15:55:50,436 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 15:55:51,440 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure
+2025-11-13 15:55:53,609 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-13 15:55:53,687 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Accepted
+2025-11-13 15:55:54,699 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Proceed button
+2025-11-13 15:55:58,061 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Clicked on Proceed button
+2025-11-13 15:56:04,036 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  i am on business info page
+2025-11-13 15:56:04,073 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  business info page validated
+2025-11-13 15:56:04,085 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 15:56:05,224 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting the business type dropdown
+2025-11-13 15:56:05,232 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-13 15:56:05,325 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting BusinessType
+2025-11-13 15:56:05,440 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - business type selected
+2025-11-13 15:56:05,442 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering business name
+2025-11-13 15:56:06,561 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering DBA name
+2025-11-13 15:56:07,697 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering date of establishment
+2025-11-13 15:56:09,070 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - date of establishment entered
+2025-11-13 15:56:09,070 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - i am at the select address place
+2025-11-13 15:56:09,070 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selected street address dropdown ::97 Sunfield Avenue
+2025-11-13 15:56:10,419 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:13,894 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:14,931 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - before addresstext
+2025-11-13 15:56:16,250 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:17,413 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - after addresstext
+2025-11-13 15:56:18,417 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering year
+2025-11-13 15:56:20,091 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering mobile phone no
+2025-11-13 15:56:21,326 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering email
+2025-11-13 15:56:22,018 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering TIN
+2025-11-13 15:56:22,779 - com.cztffa.page.base.SmbBasePage -INFO - Inner spinner have disappeared.
+2025-11-13 15:56:23,453 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entered TIN
+2025-11-13 15:56:23,454 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Accepting Disclosure
+2025-11-13 15:56:24,504 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-13 15:56:24,572 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Disclosure Accepted
+2025-11-13 15:56:26,767 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:26,845 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - Business Information added for submissionId: 1
+2025-11-13 15:56:26,940 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //button[normalize-space()='Next']]
+2025-11-13 15:56:35,219 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Navigated to personal information page
+2025-11-13 15:56:36,344 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 15:56:37,547 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering first name
+2025-11-13 15:56:37,709 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering middle name
+2025-11-13 15:56:37,873 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering last name
+2025-11-13 15:56:37,996 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-13 15:56:39,848 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:44,824 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:45,211 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - After entering Zipcode
+2025-11-13 15:56:46,224 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering year
+2025-11-13 15:56:47,906 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering mobile phone no
+2025-11-13 15:56:49,208 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering work phone no
+2025-11-13 15:56:49,394 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering email
+2025-11-13 15:56:49,619 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting idType method Drivers License
+2025-11-13 15:56:50,647 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:52,940 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting stateIssued dropdown 
+2025-11-13 15:56:53,864 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:54,253 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering date of birth
+2025-11-13 15:56:54,460 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering SSN
+2025-11-13 15:56:54,628 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - SSN entered
+2025-11-13 15:56:54,628 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Select PEP Answer
+2025-11-13 15:56:54,757 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEP answer Selected
+2025-11-13 15:56:54,757 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEPMemberType
+2025-11-13 15:56:55,829 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 15:56:55,880 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Personal Information added for submissionId: 1
+2025-11-13 15:56:55,908 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Total applicants for submissionId 1: 1
+2025-11-13 15:56:55,911 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Clicking on personal Info Next button
+2025-11-13 15:57:16,490 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (7f798ad3ad6353fc18d9a0b0826dc93f)] -> xpath: //button[contains(text(),'Continue')]]
+2025-11-13 15:57:16,567 - com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition -INFO - i am on relation page
+2025-11-13 15:57:16,620 - com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition -INFO - i am on Due dillegence page
+2025-11-13 15:58:17,827 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Finished scenario Happy flow of single business scenario "1"
+2025-11-13 15:58:17,827 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Final line it got executed 43 
+2025-11-13 15:58:17,827 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Status of the scenario FAILED 
+2025-11-13 15:58:18,084 - com.cztffa.utilities.MyTestListener -INFO - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@8fb - FAILED
+2025-11-13 15:58:18,084 - com.cztffa.utilities.MyTestListener -INFO - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-13 15:58:18,084 - com.cztffa.utilities.MyTestListener -ERROR - error occured while executing the test case Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'We need some additional information')] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53914}, goog:processID: 15956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53914/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f798ad3ad6353fc18d9a0b0826dc93f
+2025-11-13 16:16:30,015 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 16:16:30,015 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - [@SMBFlow]
+2025-11-13 16:16:30,015 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO -  tag name ============ @SMBFlow
+2025-11-13 16:16:30,031 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 16:16:30,035 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting of home page
+2025-11-13 16:16:30,035 - com.cztffa.page.base.SmbBasePage -INFO - Initializing the properties
+2025-11-13 16:16:30,037 - com.cztffa.page.base.SmbBasePage -INFO - Successfully loaded the properties
+2025-11-13 16:16:30,079 - io.github.bonigarcia.wdm.cache.ResolutionCache -INFO - Clearing WebDriverManager resolution cache
+2025-11-13 16:16:31,115 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+2025-11-13 16:16:31,148 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+2025-11-13 16:16:31,148 - com.cztffa.webbrowser.ChromeBrowserSetupImpl -INFO - Launching chrome driver
+2025-11-13 16:16:32,398 - com.cztffa.application.ChromeWebApplication -INFO - Chrome launched
+2025-11-13 16:16:36,085 - com.cztffa.driver.SeleniumUIDriver -INFO - Application launched
+2025-11-13 16:16:36,085 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - loaded home page 
+2025-11-13 16:16:36,087 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Before click of business tab
+2025-11-13 16:16:40,446 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-13 16:16:40,552 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicking all products for submissionId: 1
+2025-11-13 16:16:42,193 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked product: NonProfitChecking
+2025-11-13 16:16:42,193 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked on all products
+2025-11-13 16:16:42,235 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - On click of checkout btn
+2025-11-13 16:16:48,415 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-13 16:16:53,522 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of checkout btn
+2025-11-13 16:16:53,555 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of proceed btn
+2025-11-13 16:16:53,693 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - On getting started page
+2025-11-13 16:16:54,704 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before filling the details
+2025-11-13 16:16:54,881 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=Brother, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-13 16:16:56,657 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-13 16:16:56,774 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Details entered
+2025-11-13 16:16:56,774 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Personal Information added for submissionId: 1
+2025-11-13 16:16:56,775 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 16:16:57,075 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 16:16:58,080 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure
+2025-11-13 16:17:00,275 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-13 16:17:00,371 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Accepted
+2025-11-13 16:17:01,385 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Proceed button
+2025-11-13 16:17:04,763 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Clicked on Proceed button
+2025-11-13 16:17:10,757 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  i am on business info page
+2025-11-13 16:17:10,789 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  business info page validated
+2025-11-13 16:17:10,827 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 16:17:11,958 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting the business type dropdown
+2025-11-13 16:17:11,966 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-13 16:17:12,043 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting BusinessType
+2025-11-13 16:17:12,144 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - business type selected
+2025-11-13 16:17:12,144 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering business name
+2025-11-13 16:17:13,264 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering DBA name
+2025-11-13 16:17:14,398 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering date of establishment
+2025-11-13 16:17:15,790 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - date of establishment entered
+2025-11-13 16:17:15,790 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - i am at the select address place
+2025-11-13 16:17:15,790 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selected street address dropdown ::97 Sunfield Avenue
+2025-11-13 16:17:17,139 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:17:20,581 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:17:21,608 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - before addresstext
+2025-11-13 16:17:22,938 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:17:24,124 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - after addresstext
+2025-11-13 16:17:25,135 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering year
+2025-11-13 16:17:26,814 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering mobile phone no
+2025-11-13 16:17:28,098 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering email
+2025-11-13 16:17:28,773 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering TIN
+2025-11-13 16:17:29,532 - com.cztffa.page.base.SmbBasePage -INFO - Inner spinner have disappeared.
+2025-11-13 16:17:30,224 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entered TIN
+2025-11-13 16:17:30,224 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Accepting Disclosure
+2025-11-13 16:17:31,275 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-13 16:17:31,354 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Disclosure Accepted
+2025-11-13 16:17:33,508 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:17:33,585 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - Business Information added for submissionId: 1
+2025-11-13 16:17:33,690 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (545d89c36a38394af0b7a8f651735f65)] -> xpath: //button[normalize-space()='Next']]
+2025-11-13 16:17:42,581 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Navigated to personal information page
+2025-11-13 16:17:43,719 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 16:17:44,881 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering first name
+2025-11-13 16:17:45,047 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering middle name
+2025-11-13 16:17:45,194 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering last name
+2025-11-13 16:17:45,324 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-13 16:17:47,201 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:17:52,209 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:17:52,552 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - After entering Zipcode
+2025-11-13 16:17:53,561 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering year
+2025-11-13 16:17:55,259 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering mobile phone no
+2025-11-13 16:17:56,592 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering work phone no
+2025-11-13 16:17:56,782 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering email
+2025-11-13 16:17:56,996 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting idType method Drivers License
+2025-11-13 16:17:57,998 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:18:00,266 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting stateIssued dropdown 
+2025-11-13 16:18:01,201 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:18:01,616 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering date of birth
+2025-11-13 16:18:01,819 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering SSN
+2025-11-13 16:18:01,984 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - SSN entered
+2025-11-13 16:18:01,988 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Select PEP Answer
+2025-11-13 16:18:02,103 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEP answer Selected
+2025-11-13 16:18:02,104 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEPMemberType
+2025-11-13 16:18:03,168 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:18:03,234 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - click on NEXT of personal info
+2025-11-13 16:18:03,392 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Finished scenario Happy flow of single business scenario "1"
+2025-11-13 16:18:03,393 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Final line it got executed 43 
+2025-11-13 16:18:03,394 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Status of the scenario FAILED 
+2025-11-13 16:18:03,739 - com.cztffa.utilities.MyTestListener -INFO - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@8fb - FAILED
+2025-11-13 16:18:03,740 - com.cztffa.utilities.MyTestListener -INFO - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-13 16:18:03,740 - com.cztffa.utilities.MyTestListener -ERROR - error occured while executing the test case Cannot invoke "com.cztffa.page.review.SmbReviewPage.waitForSpinnerToDisappear()" because "this.smbReviewPage" is null
+2025-11-13 16:19:09,717 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 16:19:09,719 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - [@SMBFlow]
+2025-11-13 16:19:09,721 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO -  tag name ============ @SMBFlow
+2025-11-13 16:19:09,726 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 16:19:09,730 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting of home page
+2025-11-13 16:19:09,730 - com.cztffa.page.base.SmbBasePage -INFO - Initializing the properties
+2025-11-13 16:19:09,732 - com.cztffa.page.base.SmbBasePage -INFO - Successfully loaded the properties
+2025-11-13 16:19:09,774 - io.github.bonigarcia.wdm.cache.ResolutionCache -INFO - Clearing WebDriverManager resolution cache
+2025-11-13 16:19:10,632 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+2025-11-13 16:19:10,656 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+2025-11-13 16:19:10,661 - com.cztffa.webbrowser.ChromeBrowserSetupImpl -INFO - Launching chrome driver
+2025-11-13 16:19:11,893 - com.cztffa.application.ChromeWebApplication -INFO - Chrome launched
+2025-11-13 16:19:14,975 - com.cztffa.driver.SeleniumUIDriver -INFO - Application launched
+2025-11-13 16:19:14,976 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - loaded home page 
+2025-11-13 16:19:14,979 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Before click of business tab
+2025-11-13 16:19:19,352 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-13 16:19:19,443 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicking all products for submissionId: 1
+2025-11-13 16:19:21,088 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked product: NonProfitChecking
+2025-11-13 16:19:21,090 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked on all products
+2025-11-13 16:19:21,118 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - On click of checkout btn
+2025-11-13 16:19:27,292 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-13 16:19:32,396 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of checkout btn
+2025-11-13 16:19:32,434 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of proceed btn
+2025-11-13 16:19:32,556 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - On getting started page
+2025-11-13 16:19:33,561 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before filling the details
+2025-11-13 16:19:33,721 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=Brother, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-13 16:19:35,497 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-13 16:19:35,598 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Details entered
+2025-11-13 16:19:35,598 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Personal Information added for submissionId: 1
+2025-11-13 16:19:35,600 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 16:19:35,882 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 16:19:36,890 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure
+2025-11-13 16:19:39,076 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-13 16:19:39,166 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Accepted
+2025-11-13 16:19:40,168 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Proceed button
+2025-11-13 16:19:43,531 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Clicked on Proceed button
+2025-11-13 16:19:50,103 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  i am on business info page
+2025-11-13 16:19:50,136 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  business info page validated
+2025-11-13 16:19:50,167 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 16:19:51,319 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting the business type dropdown
+2025-11-13 16:19:51,331 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-13 16:19:51,406 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting BusinessType
+2025-11-13 16:19:51,507 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - business type selected
+2025-11-13 16:19:51,507 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering business name
+2025-11-13 16:19:52,626 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering DBA name
+2025-11-13 16:19:53,766 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering date of establishment
+2025-11-13 16:19:55,175 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - date of establishment entered
+2025-11-13 16:19:55,176 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - i am at the select address place
+2025-11-13 16:19:55,176 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selected street address dropdown ::97 Sunfield Avenue
+2025-11-13 16:19:56,518 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:19:59,928 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:00,946 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - before addresstext
+2025-11-13 16:20:02,285 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:03,456 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - after addresstext
+2025-11-13 16:20:04,474 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering year
+2025-11-13 16:20:06,157 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering mobile phone no
+2025-11-13 16:20:07,390 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering email
+2025-11-13 16:20:08,079 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering TIN
+2025-11-13 16:20:08,861 - com.cztffa.page.base.SmbBasePage -INFO - Inner spinner have disappeared.
+2025-11-13 16:20:09,541 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entered TIN
+2025-11-13 16:20:09,541 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Accepting Disclosure
+2025-11-13 16:20:10,588 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-13 16:20:10,659 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Disclosure Accepted
+2025-11-13 16:20:12,814 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:12,881 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - Business Information added for submissionId: 1
+2025-11-13 16:20:12,974 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (b6951899f25f23513171f4adc69b8252)] -> xpath: //button[normalize-space()='Next']]
+2025-11-13 16:20:20,783 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Navigated to personal information page
+2025-11-13 16:20:21,898 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 16:20:23,047 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering first name
+2025-11-13 16:20:23,256 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering middle name
+2025-11-13 16:20:23,436 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering last name
+2025-11-13 16:20:23,587 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-13 16:20:25,437 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:30,407 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:30,745 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - After entering Zipcode
+2025-11-13 16:20:31,758 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering year
+2025-11-13 16:20:33,440 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering mobile phone no
+2025-11-13 16:20:34,747 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering work phone no
+2025-11-13 16:20:34,927 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering email
+2025-11-13 16:20:35,145 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting idType method Drivers License
+2025-11-13 16:20:36,149 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:38,435 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting stateIssued dropdown 
+2025-11-13 16:20:39,363 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:39,754 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering date of birth
+2025-11-13 16:20:39,953 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering SSN
+2025-11-13 16:20:40,114 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - SSN entered
+2025-11-13 16:20:40,116 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Select PEP Answer
+2025-11-13 16:20:40,251 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEP answer Selected
+2025-11-13 16:20:40,252 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEPMemberType
+2025-11-13 16:20:41,310 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:20:41,378 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - click on NEXT of personal info
+2025-11-13 16:20:41,524 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Finished scenario Happy flow of single business scenario "1"
+2025-11-13 16:20:41,524 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Final line it got executed 43 
+2025-11-13 16:20:41,526 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Status of the scenario FAILED 
+2025-11-13 16:20:41,782 - com.cztffa.utilities.MyTestListener -INFO - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@8fb - FAILED
+2025-11-13 16:20:41,782 - com.cztffa.utilities.MyTestListener -INFO - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-13 16:20:41,782 - com.cztffa.utilities.MyTestListener -ERROR - error occured while executing the test case Cannot invoke "com.cztffa.page.review.SmbReviewPage.waitForSpinnerToDisappear()" because "this.smbReviewPage" is null
+2025-11-13 16:22:01,180 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 16:22:01,182 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO - [@SMBFlow]
+2025-11-13 16:22:01,184 - com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -INFO -  tag name ============ @SMBFlow
+2025-11-13 16:22:01,189 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting scenario Happy flow of single business scenario "1" 
+2025-11-13 16:22:01,189 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Starting of home page
+2025-11-13 16:22:01,189 - com.cztffa.page.base.SmbBasePage -INFO - Initializing the properties
+2025-11-13 16:22:01,189 - com.cztffa.page.base.SmbBasePage -INFO - Successfully loaded the properties
+2025-11-13 16:22:01,243 - io.github.bonigarcia.wdm.cache.ResolutionCache -INFO - Clearing WebDriverManager resolution cache
+2025-11-13 16:22:02,307 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 142.0.7444.162 (resolved driver for Chrome 142)
+2025-11-13 16:22:02,333 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.162\chromedriver.exe
+2025-11-13 16:22:02,336 - com.cztffa.webbrowser.ChromeBrowserSetupImpl -INFO - Launching chrome driver
+2025-11-13 16:22:03,610 - com.cztffa.application.ChromeWebApplication -INFO - Chrome launched
+2025-11-13 16:22:07,612 - com.cztffa.driver.SeleniumUIDriver -INFO - Application launched
+2025-11-13 16:22:07,613 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - loaded home page 
+2025-11-13 16:22:07,615 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Before click of business tab
+2025-11-13 16:22:13,096 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-13 16:22:13,182 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicking all products for submissionId: 1
+2025-11-13 16:22:14,556 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked product: NonProfitChecking
+2025-11-13 16:22:14,556 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - Clicked on all products
+2025-11-13 16:22:14,593 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - On click of checkout btn
+2025-11-13 16:22:20,796 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-13 16:22:25,909 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of checkout btn
+2025-11-13 16:22:25,941 - com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition -INFO - After click of proceed btn
+2025-11-13 16:22:26,068 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - On getting started page
+2025-11-13 16:22:27,090 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before filling the details
+2025-11-13 16:22:27,252 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=Brother, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-13 16:22:29,060 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-13 16:22:29,208 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Details entered
+2025-11-13 16:22:29,208 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Personal Information added for submissionId: 1
+2025-11-13 16:22:29,211 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 16:22:29,457 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - after start button  click
+2025-11-13 16:22:30,471 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure
+2025-11-13 16:22:32,683 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-13 16:22:32,773 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Accepted
+2025-11-13 16:22:33,775 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Before you begin disclosure Proceed button
+2025-11-13 16:22:37,138 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Clicked on Proceed button
+2025-11-13 16:22:43,197 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  i am on business info page
+2025-11-13 16:22:43,244 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO -  business info page validated
+2025-11-13 16:22:43,276 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 16:22:44,437 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting the business type dropdown
+2025-11-13 16:22:44,449 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-13 16:22:44,564 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selecting BusinessType
+2025-11-13 16:22:44,708 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - business type selected
+2025-11-13 16:22:44,710 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering business name
+2025-11-13 16:22:45,856 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering DBA name
+2025-11-13 16:22:46,990 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering date of establishment
+2025-11-13 16:22:48,389 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - date of establishment entered
+2025-11-13 16:22:48,389 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - i am at the select address place
+2025-11-13 16:22:48,390 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - selected street address dropdown ::97 Sunfield Avenue
+2025-11-13 16:22:49,712 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:22:53,124 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:22:54,157 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - before addresstext
+2025-11-13 16:22:55,478 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:22:56,678 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - after addresstext
+2025-11-13 16:22:57,692 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Entering year
+2025-11-13 16:22:59,386 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering mobile phone no
+2025-11-13 16:23:00,585 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering email
+2025-11-13 16:23:01,263 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entering TIN
+2025-11-13 16:23:02,039 - com.cztffa.page.base.SmbBasePage -INFO - Inner spinner have disappeared.
+2025-11-13 16:23:02,735 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - entered TIN
+2025-11-13 16:23:02,736 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Accepting Disclosure
+2025-11-13 16:23:03,780 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-13 16:23:03,861 - com.cztffa.page.businessinfo.BusinessInfoPage -INFO - Disclosure Accepted
+2025-11-13 16:23:06,132 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:23:06,190 - com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -INFO - Business Information added for submissionId: 1
+2025-11-13 16:23:06,284 - com.cztffa.browseractions.BrowserActions -INFO - Attempting to click: [[ChromeDriver: chrome on windows (636ecdef4655161d2243ecbf56a071c9)] -> xpath: //button[normalize-space()='Next']]
+2025-11-13 16:23:14,631 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - Navigated to personal information page
+2025-11-13 16:23:15,769 - com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition -INFO - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-13 16:23:16,937 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering first name
+2025-11-13 16:23:17,110 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering middle name
+2025-11-13 16:23:17,247 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering last name
+2025-11-13 16:23:17,363 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-13 16:23:19,225 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:23:24,217 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:23:24,559 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - After entering Zipcode
+2025-11-13 16:23:25,569 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering year
+2025-11-13 16:23:27,268 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering mobile phone no
+2025-11-13 16:23:28,590 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering work phone no
+2025-11-13 16:23:28,772 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering email
+2025-11-13 16:23:28,983 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting idType method Drivers License
+2025-11-13 16:23:29,911 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:23:32,184 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - selecting stateIssued dropdown 
+2025-11-13 16:23:33,125 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:23:33,539 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Entering date of birth
+2025-11-13 16:23:33,739 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - entering SSN
+2025-11-13 16:23:33,906 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - SSN entered
+2025-11-13 16:23:33,906 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - Select PEP Answer
+2025-11-13 16:23:34,010 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEP answer Selected
+2025-11-13 16:23:34,010 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - PEPMemberType
+2025-11-13 16:23:35,043 - com.cztffa.page.base.SmbBasePage -INFO - Selected element (dropdown value or checkbox)
+2025-11-13 16:23:37,103 - com.cztffa.page.personalinfo.SmbPersonalInfoPage -INFO - click on NEXT of personal info
+2025-11-13 16:23:37,253 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Finished scenario Happy flow of single business scenario "1"
+2025-11-13 16:23:37,254 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Final line it got executed 43 
+2025-11-13 16:23:37,256 - com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition -INFO - Status of the scenario FAILED 
+2025-11-13 16:23:37,523 - com.cztffa.utilities.MyTestListener -INFO - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@8fb - FAILED
+2025-11-13 16:23:37,523 - com.cztffa.utilities.MyTestListener -INFO - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-13 16:23:37,523 - com.cztffa.utilities.MyTestListener -ERROR - error occured while executing the test case Cannot invoke "com.cztffa.page.review.SmbReviewPage.waitForSpinnerToDisappear()" because "this.smbReviewPage" is null

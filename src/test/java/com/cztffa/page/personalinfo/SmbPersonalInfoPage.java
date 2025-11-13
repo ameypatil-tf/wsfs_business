@@ -10,6 +10,7 @@ import com.cztffa.objects.Validation;
 import com.cztffa.page.businessinfo.BusinessInfoPage;
 import com.cztffa.page.product.SmbProductSelectorPage;
 import com.cztffa.page.review.ReviewPage;
+import com.cztffa.page.review.SmbReviewPage;
 import com.cztffa.util.ApplicantUtil;
 import org.openqa.selenium.*;
 
@@ -29,6 +30,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SmbPersonalInfoPage extends BusinessInfoPage {
     private SeleniumDriver seleniumdriver;
     private ReviewPage reviewPage;
+    private SmbReviewPage smbReviewPage;
 
     //    protected void addPersonalDetails(Person person) throws InterruptedException {
 //        addApplicant(person, 0);
@@ -46,183 +48,13 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
 //        Thread.sleep(10000);
 //    }
 //
-//
-    public WebElement element(String xpath, int index) {
+
+    public WebElement element (String xpath,int index){
         ApplicantUtil applicantUtil = new ApplicantUtil();
         return applicantUtil.getWebElement(getSeleniumdriver(), xpath, index);
     }
 //
-//    public void addApplicant(Person person, int index) throws InterruptedException {
-//        ApplicantUtil applicantUtil = new ApplicantUtil();
-//        Validation validation = person.getValidation();
 //
-//        waitForSpinnerToDisappear();
-//        waitWithSpinner(element(getSmbPersonalInfoPageModel().firstName, index));
-//        log.info("Entering first name");
-//        WebElement firstName = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().firstName, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), firstName);
-//        wait(firstName);
-//        browserActions.enterText(getSeleniumdriver(),
-//                element(getSmbPersonalInfoPageModel().firstName, index),
-//                person.getFirstName());
-//        assertTrue(true);
-//        log.info("Entering middle name");
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                element(getSmbPersonalInfoPageModel().middleName, index),
-//                person.getMiddleName());
-//        log.info("Entering last name");
-//        browserActions.enterText(getSeleniumdriver(),
-//                element(getSmbPersonalInfoPageModel().lastName, index),
-//                person.getLastName());
-//
-//        log.info("selecting street address dropdown ::" + person.getStreetAddress1());
-//        WebElement streetAddress1 = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().streetAddress1, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), streetAddress1);
-//        wait(streetAddress1);
-//        Thread.sleep(1000);
-//        selectElement(getSeleniumdriver().getWebDriver(), streetAddress1);
-//        browserActions.enterText(getSeleniumdriver(),
-//                element(getSmbPersonalInfoPageModel().streetAddress1, index), person.getStreetAddress1());
-//        Thread.sleep(4000);
-//        WebElement addressText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getStreetAddress1());
-//        browserActions.scrollToWebElement(getSeleniumdriver(), addressText);
-//        wait(addressText);
-//        selectElement(getSeleniumdriver().getWebDriver(), addressText);
-//        addressText.click();
-//
-//        browserActions.scrollToWebElement(getSeleniumdriver(), element(getSmbPersonalInfoPageModel().city, index));
-//        browserActions.enterText(getSeleniumdriver(), element(getSmbPersonalInfoPageModel().city, index), person.getCity());
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().zip, index),
-//                person.getZip());
-//        log.info("After entering Zipcode");
-//
-//        log.info("entering mobile phone no");
-//        WebElement mobilePhone = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().phoneNumber, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), mobilePhone);
-//        Thread.sleep(1000);
-//        //wait(mobilePhone);
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().phoneNumber, index),
-//                person.getPhoneNumber());
-//
-//
-//        log.info("entering work phone no");
-//        WebElement workPhone = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().workPhone, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), workPhone);
-//        wait(workPhone);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().workPhone, index),
-//                person.getWorkPhone());
-//
-//        log.info("entering email");
-//        WebElement email = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().email, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), email);
-//        wait(email);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().email, index),
-//                person.getEmail());
-//
-//        //	if ((validation == null) || validation != null && !validation.isSkipEmploymentStatusDropdown()) {
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().employment, index));
-//        log.info("selecting employment method {}", person.getEmploymentStatus());
-//        //if (person.getEmploymentStatus().equalsIgnoreCase("Employed")){
-//        WebElement EmployedText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getEmploymentStatus());
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                EmployedText);
-//        assertTrue(true);
-//        // }
-//        Thread.sleep(1000);
-//        if (getSeleniumdriver().getWebDriver().getPageSource().contains("Current/Previous Occupation")) {
-//            WebElement occupation = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().occupation, index);
-//            occupation.click();
-//            log.info("Eneterd occupation");
-//
-//            browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                    occupation, person.getOccupation());
-//        }
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PrefferedId, index));
-//
-//
-//        log.info("selecting idType method {}", person.getPrefferedId());
-//        //if (person.getPrefferedId().equalsIgnoreCase("Drivers License")){
-//        WebElement IDText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getPrefferedId());
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                IDText);
-//        assertTrue(true);
-//        //}
-//        Thread.sleep(1000);
-//
-//
-//        WebElement idNumber = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idNumber, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), idNumber);
-//        Thread.sleep(1000);
-//        wait(element(getSmbPersonalInfoPageModel().idNumber, index));
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idNumber, index),
-//                person.getIdentificationNumber());
-//
-//        log.info("selecting stateIssued dropdown ");
-//        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
-//        wait(element(getSmbPersonalInfoPageModel().stateIssued, index));
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
-//
-//        WebElement stateText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateText, person.getStateIssued());
-//        browserActions.scrollToWebElement(getSeleniumdriver(), stateText);
-//        wait(stateText);
-//        selectElement(getSeleniumdriver().getWebDriver(), stateText);
-//        stateText.click();
-//        wait(element(getSmbPersonalInfoPageModel().issueDate, index));
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().issueDate, index),
-//                person.getIssueDate());
-//        wait(element(getSmbPersonalInfoPageModel().expiryDate, index));
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().expiryDate, index),
-//                person.getExpiryDate());
-//
-//        log.info("Entering date of birth");
-//        getSeleniumdriver().getWebDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-//        wait(element(getSmbPersonalInfoPageModel().dateOfBirth, index));
-//        assertTrue(true);
-//
-//        browserActions.scrollToWebElement(getSeleniumdriver(), element(getSmbPersonalInfoPageModel().dateOfBirth, index));
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(), element(getSmbPersonalInfoPageModel().dateOfBirth, index), person.getDob());
-//
-//        log.info("entering SSN");
-//        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().ssn, index));
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().ssn, index),
-//                person.getSsn());
-//        log.info("SSN entered");
-//
-//        if (index == 0) {
-//            log.info("Accepting Disclosure");
-//            WebElement disclosure = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IamNotSubjectTo, index);
-//            Thread.sleep(500);
-//            browserActions.scrollToWebElement(getSeleniumdriver(), disclosure);
-//            Thread.sleep(500);
-//            browserActions.clickButton(getSeleniumdriver(), disclosure);
-//            log.info("Disclosure Accepted");
-//        }
-//
-//        log.info("Select PEP Answer");
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IsPEPPresent, index));
-//        log.info("PEP answer Selected");
-//
-//        log.info("PEPMemberType");
-//        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPMemberType, index));
-//        wait(element(getSmbPersonalInfoPageModel().PEPMemberType, index));
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPMemberType, index));
-//        WebElement MemberText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().MemberText, person.getMemberType());
-//        browserActions.scrollToWebElement(getSeleniumdriver(), MemberText);
-//        wait(MemberText);
-//        selectElement(getSeleniumdriver().getWebDriver(), MemberText);
-//        MemberText.click();
-//    }
 
     public void addApplicantForSMB(Person person, int index) throws InterruptedException {
         waitForSpinnerToDisappear();
@@ -231,7 +63,7 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
         Validation validation = person.getValidation();
         String pageSource = getSeleniumdriver().getWebDriver().getPageSource();
 
-//            log.info("Clicking on 'yes'");
+        //            log.info("Clicking on 'yes'");
 //            browserActions.clickButton(getSeleniumdriver(),
 //                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().selectionYes, index));
 //        String textToCheck = "Proceed without prefill";
@@ -324,28 +156,6 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
                 applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().email, index),
                 person.getEmail());
 
-        //	if ((validation == null) || validation != null && !validation.isSkipEmploymentStatusDropdown()) {
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().employment, index));
-//        log.info("selecting employment method {}", person.getEmploymentStatus());
-//        //if (person.getEmploymentStatus().equalsIgnoreCase("Employed")){
-//        WebElement EmployedText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getEmploymentStatus());
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                EmployedText);
-//        assertTrue(true);
-//        // }
-//        Thread.sleep(1000);
-//        if (getSeleniumdriver().getWebDriver().getPageSource().contains("Current/Previous Occupation")) {
-//            WebElement occupation = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().occupation, index);
-//            occupation.click();
-//            log.info("Eneterd occupation");
-//
-//            browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                    occupation, person.getOccupation());
-//        }
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PrefferedId, index));
-
 
         log.info("selecting idType method {}", person.getPrefferedId());
         //if (person.getPrefferedId().equalsIgnoreCase("Drivers License")){
@@ -403,16 +213,7 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
                 person.getSsn());
         log.info("SSN entered");
 
-//        if (index == 0) {
-//            log.info("Accepting Disclosure");
-//            WebElement disclosure = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IamNotSubjectTo, index);
-//            Thread.sleep(500);
-//            browserActions.scrollToWebElement(getSeleniumdriver(), disclosure);
-//            Thread.sleep(500);
-//            browserActions.clickButton(getSeleniumdriver(), disclosure);
-//            log.info("Disclosure Accepted");
-//        }
-
+//
         log.info("Select PEP Answer");
         browserActions.clickApply(getSeleniumdriver().getWebDriver(),
                 applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IsPEPPresent, index));
@@ -427,198 +228,31 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
         wait(MemberText);
         selectElement(getSeleniumdriver().getWebDriver(), MemberText);
         MemberText.click();
+        Thread.sleep(2000);
+
+        log.info("click on Personal info");
+
+//        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement (getSmbPersonalInfoPageModel().personalInfoNextButon);
+//
+//
+//        smbReviewPage.waitForSpinnerToDisappear();
+//        smbReviewPage.waitWithSpinner(smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
+//        smbReviewPage.waitForSpinnerToDisappear();
+//        browserActions.scrollToWebElement(seleniumdriver,smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
+//        smbReviewPage.waitWithSpinner(smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
+//        browserActions.clickApply(seleniumdriver.getWebDriver(), smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
+//        log.info("clicked on Personal info");
+//        Thread.sleep(2000);
+
+
+
+
 
     }
 
+//
 
 
-
-
-
-
-
-
-//        browserActions.scrollToWebElement(getSeleniumdriver(),firstName);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().firstName, index),
-//                person.getFirstName());
-//        assertTrue(true);
-//
-//        log.info("Entering middle name");
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().middleName, index),
-//                person.getMiddleName());
-//
-//        log.info("Entering last name");
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().lastName, index),
-//                person.getLastName());
-//
-//        log.info("Entering date of birth");
-//        WebElement dobElement = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().dateOfBirth, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(), dobElement);
-//        Thread.sleep(1000);
-//        waitWithSpinner(dobElement);
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(), dobElement, person.getDob());
-//
-//        WebElement citizen = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().citizenship, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),citizen);
-//        waitWithSpinner(citizen);
-//        log.info("selecting the citizenship dropdown");
-//        browserActions.clickButton(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().citizenship, index));
-//        getSeleniumdriver().getWebDriver().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-//        if ((validation == null) || validation != null && !validation.isSkipCitizenshipDropDown()) {
-//            if (person.getCitizenShip().equalsIgnoreCase("citizen")) {
-//
-//                log.info("selecting citizenship");
-//                browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                        getSmbPersonalInfoPageModel().citizenshipCitizenOptApply);
-//                assertTrue(true);
-//                log.info("selected citizen dropdown");
-//
-//            } else {
-//                browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                        getSmbPersonalInfoPageModel().citizenshipAlienApply);
-//                log.info("selected alien citizenship dropdown");
-//
-//                WebElement citizenCountry = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().citizenshipCountry, index);
-//                waitWithSpinner(citizenCountry);
-//                browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil
-//                        .getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().citizenshipCountry, index));
-//                waitWithSpinner(getSmbPersonalInfoPageModel().citizenshipCountryApply);
-//                browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                        getSmbPersonalInfoPageModel().citizenshipCountryApply);
-//                WebElement willingForeign = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().willingForeign, index);
-//                waitWithSpinner(willingForeign);
-//                browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil
-//                        .getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().willingForeign, index));
-//                waitWithSpinner(getSmbPersonalInfoPageModel().willingFreignApply);
-//                browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                        getSmbPersonalInfoPageModel().willingFreignApply);
-//                waitForSpinnerToDisappear();
-//                assertTrue(true);
-//            }
-//        }
-//
-//        log.info("selected street address dropdown ::"+person.getStreetAddress1());
-//        WebElement streetAddress1= applicantUtil.getWebElement(getSeleniumdriver(),getSmbPersonalInfoPageModel().streetAddress1, index);
-//        wait(streetAddress1);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),streetAddress1);
-//        wait(streetAddress1);
-//        selectElement(getSeleniumdriver().getWebDriver(),streetAddress1);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().streetAddress1, index),
-//                person.getStreetAddress1());
-//        WebElement addressText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getStreetAddress1());
-//        browserActions.scrollToWebElement(getSeleniumdriver(),addressText);
-//        wait(addressText);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),addressText);
-//        waitForSpinnerToDisappear();
-//        wait(addressText);
-//        selectElement(getSeleniumdriver().getWebDriver(),addressText);
-//        addressText.click();
-//        WebElement city = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().city, index);
-//        waitWithSpinner(city);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),city);
-//        wait(city);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().city, index),
-//                person.getCity());
-//        if ((validation == null) || validation != null && !validation.isSkipStateDropdown()) {
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().state, index));
-//            wait(getSmbPersonalInfoPageModel().stateOptApply);
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(), getSmbPersonalInfoPageModel().stateOptApply);
-//            log.info("After entering state drop downn ");
-//        }
-//
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().zip, index),
-//                person.getZip());
-//        log.info("After entering Zipcode");
-//
-//        log.info("entering mobile phone no");
-//        WebElement mobPhone = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().mobilePhone, index);
-//        wait(mobPhone);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),mobPhone);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().mobilePhone, index),
-//                person.getPhoneNumber());
-//
-//        log.info("entering email");
-//        WebElement email = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().email, index);
-//        wait(email);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),email);
-//        wait(email);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().email, index),
-//                person.getEmail());
-//        WebElement ssn = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().ssn, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),ssn);
-//        wait(ssn);
-//
-//        log.info("entering SSN");
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().ssn, index),
-//                person.getSsn());
-//
-//        WebElement idType = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idType, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),idType);
-//        wait(idType);
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idType, index));
-//        log.info("selecting preferred id method {}", person.getPrefferedId());
-//
-//        if (person.getPrefferedId().equalsIgnoreCase("military")) {
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    getSmbPersonalInfoPageModel().idTypeMilitaryApply);
-//        } else if (person.getPrefferedId().equalsIgnoreCase("Resident Alien")) {
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    getSmbPersonalInfoPageModel().idTypeResidentAlienApply);
-//        } else if (person.getPrefferedId().equalsIgnoreCase("driverLicence")) {
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    getSmbPersonalInfoPageModel().idTypeDriverLicenceApply);
-//            getSeleniumdriver().getWebDriver().manage().timeouts().implicitlyWait(11, TimeUnit.SECONDS);
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(), getSmbPersonalInfoPageModel().stateApply);
-//        } else if (person.getPrefferedId().equalsIgnoreCase("stateId")) {
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    getSmbPersonalInfoPageModel().idTypeStateIdApply);
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(), getSmbPersonalInfoPageModel().stateApply);
-//        } else if (person.getPrefferedId().equalsIgnoreCase("Passport")) {
-//            waitWithSpinner(getSmbPersonalInfoPageModel().idTypePassportApply);
-//
-//            log.info("Into the passport section");
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    getSmbPersonalInfoPageModel().idTypePassportApply);
-//            WebElement countryIssued = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().countryIssued, index);
-//            browserActions.scrollToWebElement(getSeleniumdriver(),countryIssued);
-//            wait(countryIssued);
-//
-//            log.info("issueing country");
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().countryIssued, index));
-//            wait(getSmbPersonalInfoPageModel().citizenshipCountryApply);
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(), getSmbPersonalInfoPageModel().citizenshipCountryApply);
-//            log.info("Citizen id country applied");
-//        }
-//        WebElement idNumber = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idNumber, index);
-//        browserActions.scrollToWebElement(getSeleniumdriver(),idNumber);
-//        wait(idNumber);
-//        browserActions.enterText(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idNumber, index),
-//                person.getIdentificationNumber());
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().issueDate, index),
-//                person.getIssueDate());
-//        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().expiryDate, index),
-//                person.getExpiryDate());
-//        log.info("issue and expiry date added");
 //
 //        if(index==0) {
 //            browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().selectRelation, index));
@@ -760,27 +394,7 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
                     applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().email, index),
                     person.getEmail());
 
-            //	if ((validation == null) || validation != null && !validation.isSkipEmploymentStatusDropdown()) {
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().employment, index));
-//            log.info("selecting employment method {}", person.getEmploymentStatus());
-//            //if (person.getEmploymentStatus().equalsIgnoreCase("Employed")){
-//            WebElement EmployedText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getEmploymentStatus());
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    EmployedText);
-//            assertTrue(true);
-//            // }
-//            Thread.sleep(1000);
-//            if (getSeleniumdriver().getWebDriver().getPageSource().contains("Current/Previous Occupation")) {
-//                WebElement occupation = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().occupation, index);
-//                occupation.click();
-//                log.info("Eneterd occupation");
-//
-//                browserActions.enterTextKeyEntry(getSeleniumdriver(),
-//                        occupation, person.getOccupation());
-//            }
-//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PrefferedId, index));
+
 
 
             log.info("selecting idType method {}", person.getPrefferedId());
@@ -835,15 +449,7 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
                     person.getSsn());
             log.info("SSN entered");
 
-//            if (index == 0) {
-//                log.info("Accepting Disclosure");
-//                WebElement disclosure = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IamNotSubjectTo, index);
-//                Thread.sleep(500);
-//                browserActions.scrollToWebElement(getSeleniumdriver(), disclosure);
-//                Thread.sleep(500);
-//                browserActions.clickButton(getSeleniumdriver(), disclosure);
-//                log.info("Disclosure Accepted");
-//            }
+//
 
             log.info("Select PEP Answer");
             browserActions.clickApply(getSeleniumdriver().getWebDriver(),
@@ -859,6 +465,14 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
             wait(MemberText);
             selectElement(getSeleniumdriver().getWebDriver(), MemberText);
             MemberText.click();
+
+//            log.info("");
+//            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
+//                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IsPEPPresent, index));
+//            log.info("PEP answer Selected");
+
+
+
 
 //        if (index == 0) {
 //            browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().selectRelation, index));
@@ -932,6 +546,11 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
 //        wait(getSmbGettingStartedPageModel().acceptBtn);
 //        browserActions.clickUsingEnter(getSeleniumdriver().getWebDriver(), getSmbGettingStartedPageModel().acceptBtn);
             }
-        }
+
+
+
+
+
+}
 //    }
 

@@ -12,7 +12,7 @@ public class MemberDiligencePageModel {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-
+    public String accountUsedFor = "//tf-checkbox//span[contains(text(),'Payroll')]";
     @FindBy(xpath = MemberDiligencePageXpath.DOMESTICWIRESNONEPPLY)
     public WebElement domesticWiresNonepply;
     
