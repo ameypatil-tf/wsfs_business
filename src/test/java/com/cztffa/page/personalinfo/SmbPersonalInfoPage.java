@@ -230,20 +230,25 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
         MemberText.click();
         Thread.sleep(2000);
 
-        log.info("click on Personal info");
+        log.info("Clicking next button");
 
-//        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement (getSmbPersonalInfoPageModel().personalInfoNextButon);
-//
-//
-//        smbReviewPage.waitForSpinnerToDisappear();
-//        smbReviewPage.waitWithSpinner(smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
-//        smbReviewPage.waitForSpinnerToDisappear();
-//        browserActions.scrollToWebElement(seleniumdriver,smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
-//        smbReviewPage.waitWithSpinner(smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
-//        browserActions.clickApply(seleniumdriver.getWebDriver(), smbReviewPage.getSmbPersonalInfoPageModel().personalInfoNextButon);
-//        log.info("clicked on Personal info");
-//        Thread.sleep(2000);
+        waitWithSpinner(getSmbPersonalInfoPageModel().personalInfoNextButon);
+        waitForSpinnerToDisappear();
+        browserActions.scrollToWebElement(getSeleniumdriver(),getSmbPersonalInfoPageModel().personalInfoNextButon);
+        waitWithSpinner(getSmbPersonalInfoPageModel().personalInfoNextButon);
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(), getSmbPersonalInfoPageModel().personalInfoNextButon);
+        log.info("clicked on Personal info");
+        Thread.sleep(2000);
+        waitForSpinnerToDisappear();
 
+        waitWithSpinner(getSmbPersonalInfoPageModel().saveModalContinueButton);
+        waitForSpinnerToDisappear();
+        browserActions.scrollToWebElement(getSeleniumdriver(),getSmbPersonalInfoPageModel().saveModalContinueButton);
+        waitWithSpinner(getSmbPersonalInfoPageModel().saveModalContinueButton);
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(), getSmbPersonalInfoPageModel().saveModalContinueButton);
+        log.info("clicked on Personal info");
+        Thread.sleep(2000);
+        waitForSpinnerToDisappear();
 
 
 
