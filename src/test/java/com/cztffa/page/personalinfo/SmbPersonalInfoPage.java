@@ -226,7 +226,7 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
 
     public void addApplicantForSMB(Person person, int index) throws InterruptedException {
         waitForSpinnerToDisappear();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         ApplicantUtil applicantUtil = new ApplicantUtil();
         Validation validation = person.getValidation();
         String pageSource = getSeleniumdriver().getWebDriver().getPageSource();
@@ -349,9 +349,13 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
 
         log.info("selecting idType method {}", person.getPrefferedId());
         //if (person.getPrefferedId().equalsIgnoreCase("Drivers License")){
-        WebElement idText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getPrefferedId());
-        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
-                idText);
+        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PrefferedId, index));
+        wait(element(getSmbPersonalInfoPageModel().stateIssued, index));
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PrefferedId, index));
+
+        WebElement idText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idText, person.getPrefferedId());
+        selectElement(getSeleniumdriver().getWebDriver(), idText);
+        idText.click();
         assertTrue(true);
         //}
         Thread.sleep(1000);

@@ -72,7 +72,6 @@ public class SmbBusinessPageStepDefinition {
     public void clickBusinesslDetailNextButton() throws Throwable {
         smbReviewPage.waitForSpinnerToDisappear();
         browserActions.scrollToWebElement(seleniumdriver,smbReviewPage.getBusinessInfoPageModel().businessInfoNextButon);
-        Thread.sleep(1000);
         smbReviewPage.waitWithSpinner(smbReviewPage.getBusinessInfoPageModel().businessInfoNextButon);
         browserActions.clickButton(seleniumdriver, smbReviewPage.getBusinessInfoPageModel().businessInfoNextButon);
         Thread.sleep(1000);

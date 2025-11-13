@@ -108,13 +108,12 @@ public class SmbPersonalPageStepDefinition {
     @And("^: I should navigate to business details personal page$")
     public void iShouldNavigateToBusinessDetailsPersonalPage() throws Throwable {
         if (seleniumdriver.getWebDriver().getPageSource().contains("Person who is opening the account")) {
-            Thread.sleep(1000);
             smbReviewPage.waitForSpinnerToDisappear();
             smbReviewPage.waitForVisibilityWithLoader("//*[contains(text(),'Person who is opening the account')]");
             assertTrue(seleniumdriver.getWebDriver().getPageSource().contains("Person who is opening the account"));
             log.info("Navigated to personal information page");
-            //smbReviewPage.spinner();
-            Thread.sleep(3000);
+            smbReviewPage.waitForSpinnerToDisappear();
+            Thread.sleep(1000);
         }
     }
 
