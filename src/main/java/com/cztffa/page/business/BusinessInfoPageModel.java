@@ -75,7 +75,9 @@ public class BusinessInfoPageModel {
     public String relationCode = "//tf-expansion-panel//div[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='RelationCode__c']//input";
     
     public String relation = "//div[@class='dropdown-item'][contains(text(),'%s')]";
-    
+
+    public String businessActivity = "//div[contains(text(),'%s')]";
+
     @FindBy(xpath = BusinessInfoPageXpath.BUSINESSINFONEXTBUTON)
     public WebElement businessInfoNextButon;
     

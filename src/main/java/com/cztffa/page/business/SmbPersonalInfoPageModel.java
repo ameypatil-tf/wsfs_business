@@ -26,7 +26,7 @@ public class SmbPersonalInfoPageModel {
     public String state = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='State__c']/descendant::input";
 
     public String zip = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-input[@t-model='ZipCode__c']//input";
-
+    public String year = "//tf-number[@t-model='Party__r.AddressXrefs__r.0.PeriodInYears__c']/descendant::input";
     public String phoneNumber = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-phone[@t-model='Party__r.PrimaryPhone__c']";
 
     public String workPhone = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-phone[@t-model='Party__r.SecondaryPhone__c']/descendant::input";
@@ -106,6 +106,7 @@ public class SmbPersonalInfoPageModel {
     public String addressText = "//div[contains(text(),'%s')]";
     public String stateText = "//div[contains(text(),'%s')]";
     public String MemberText = "//div[contains(text(),'%s')]";
+    public String idText = "//div[contains(text(),'%s')]";
 
 
 

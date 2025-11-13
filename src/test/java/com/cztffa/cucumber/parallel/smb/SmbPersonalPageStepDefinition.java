@@ -104,65 +104,82 @@ public class SmbPersonalPageStepDefinition {
 
 
     }
-
-    @And(": I should navigate to business details personal page")
-    public void iShouldNavigateToBusinessDetailsPersonalPage() throws InterruptedException {
-        smbReviewPage.waitForSpinnerToDisappear();
-        log.info(" i am on business info page");
-        assertTrue(seleniumdriver.getWebDriver().getPageSource().contains("Business"));
-        log.info(" business info page validated");
+    @SneakyThrows
+    @And("^: I should navigate to business details personal page$")
+    public void iShouldNavigateToBusinessDetailsPersonalPage() throws Throwable {
+        if (seleniumdriver.getWebDriver().getPageSource().contains("Person who is opening the account")) {
+            Thread.sleep(1000);
+            smbReviewPage.waitForSpinnerToDisappear();
+            smbReviewPage.waitForVisibilityWithLoader("//*[contains(text(),'Person who is opening the account')]");
+            assertTrue(seleniumdriver.getWebDriver().getPageSource().contains("Person who is opening the account"));
+            log.info("Navigated to personal information page");
+            //smbReviewPage.spinner();
+            Thread.sleep(3000);
+        }
     }
+
+
+
+
+//    @And(": I should navigate to business details personal page")
+//    public void iShouldNavigateToBusinessDetailsPersonalPage() throws InterruptedException {
+//        smbReviewPage.waitForSpinnerToDisappear();
+//        log.info(" i am on business personal info page");
+//        assertTrue(seleniumdriver.getWebDriver().getPageSource().contains("Person who is opening the account"));
+//        log.info(" business personal info page validated");
+//    }
     @When(": I provide the below business personal details for {string}")
     public void businesspersonalDetails(String submissionId) throws Throwable {
-        smbReviewPage.waitForSpinnerToDisappear();
-        List<Map<?,?>> applicantDataList = DataCSVExtractor.businessPersonDataStore;
-        ObjectMapper objectMapper = new ObjectMapper();
-        for (int i = 0; i < applicantDataList.size(); i++) {
-            Map<?,?> row = applicantDataList.get(i);
-            if (row.get("submissionId").equals(submissionId)) {
-                JSONObject jsonObject = new JSONObject(row);
-                Person person = objectMapper.readValue(jsonObject.toString(), Person.class);
-                Validation validation= new Validation();
-                validation.setSkipPreferredContactDropdown(true);
-                validation.setSkipEmploymentStatusDropdown(true);
-                log.info("validation before setting "+validation);
-                stepData.setValidation(validation);
-                person.setValidation(stepData.getValidation());
-                stepData.setPerson(person);
-//                smbReviewPage.addApplicantForSMB(person, 0);
-                log.info("Personal Information added for submissionId: " + submissionId);
-                break;
+        if (seleniumdriver.getWebDriver().getPageSource().contains("First Name")) {
+            smbReviewPage.waitForSpinnerToDisappear();
+            List<Map<?, ?>> applicantDataList = DataCSVExtractor.businessPersonDataStore;
+            ObjectMapper objectMapper = new ObjectMapper();
+            for (int i = 0; i < applicantDataList.size(); i++) {
+                Map<?, ?> row = applicantDataList.get(i);
+                if (row.get("submissionId").equals(submissionId)) {
+                    JSONObject jsonObject = new JSONObject(row);
+                    Person person = objectMapper.readValue(jsonObject.toString(), Person.class);
+                    Validation validation = new Validation();
+                    validation.setSkipPreferredContactDropdown(true);
+                    validation.setSkipEmploymentStatusDropdown(true);
+                    log.info("validation before setting " + validation);
+                    stepData.setValidation(validation);
+                    person.setValidation(stepData.getValidation());
+                    stepData.setPerson(person);
+                smbReviewPage.addApplicantForSMB(person, 0);
+                    log.info("Personal Information added for submissionId: " + submissionId);
+                    break;
+                }
             }
         }
-
     }
     @And(": I provide the below additional applicant details for smb for {string}")
     public void iProvideTheBelowAdditionalApplicantDetailsForSmb(String submissionId) throws InterruptedException, JsonProcessingException {
-
-        List<Map<?, ?>> applicantDataStore = DataCSVExtractor.businessPersonDataStore;
-        int totalApplicants = 0;
-        List<Map<String, String>> matchingApplicants = new ArrayList<>();
-        for (Map<?, ?> row : applicantDataStore) {
-            Object submissionIdObj = row.get("submissionId");
-            if (submissionIdObj != null && submissionIdObj.toString().trim().equals(submissionId)){
-                matchingApplicants.add((Map<String, String>) row);
-                totalApplicants++;
+        if (seleniumdriver.getWebDriver().getPageSource().contains("First Name")) {
+            List<Map<?, ?>> applicantDataStore = DataCSVExtractor.businessPersonDataStore;
+            int totalApplicants = 0;
+            List<Map<String, String>> matchingApplicants = new ArrayList<>();
+            for (Map<?, ?> row : applicantDataStore) {
+                Object submissionIdObj = row.get("submissionId");
+                if (submissionIdObj != null && submissionIdObj.toString().trim().equals(submissionId)) {
+                    matchingApplicants.add((Map<String, String>) row);
+                    totalApplicants++;
+                }
             }
-        }
-        log.info("Total applicants for submissionId " + submissionId + ": " + matchingApplicants.size());
-        int currentIndex = 0;
-        for (int i = 1; i < matchingApplicants.size(); i++) {
-            Map<String, String> row = matchingApplicants.get(i);
-            log.info("CurrentIndex: " + currentIndex);
-            int targetIndex = currentIndex + 1;
-            if (targetIndex >= totalApplicants) break;
+            log.info("Total applicants for submissionId " + submissionId + ": " + matchingApplicants.size());
+            int currentIndex = 0;
+            for (int i = 1; i < matchingApplicants.size(); i++) {
+                Map<String, String> row = matchingApplicants.get(i);
+                log.info("CurrentIndex: " + currentIndex);
+                int targetIndex = currentIndex + 1;
+                if (targetIndex >= totalApplicants) break;
 
-            log.info("applicantDataStore get: "+ applicantDataStore.get(targetIndex).toString());
-            browserActions.scrollToWebElement(seleniumdriver,smbReviewPage.getSmbPersonalInfoPageModel().addAdditionalApplicantButton);
-            smbReviewPage.waitWithSpinner(smbReviewPage.getSmbPersonalInfoPageModel().addAdditionalApplicantButton);
-            browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbPersonalInfoPageModel().addAdditionalApplicantButton);
-            Thread.sleep(1000);
-            smbReviewPage.waitForSpinnerToDisappear();
+                log.info("applicantDataStore get: " + applicantDataStore.get(targetIndex).toString());
+                browserActions.scrollToWebElement(seleniumdriver, smbReviewPage.getSmbPersonalInfoPageModel().addAdditionalApplicantButton);
+                smbReviewPage.waitWithSpinner(smbReviewPage.getSmbPersonalInfoPageModel().addAdditionalApplicantButton);
+                browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbPersonalInfoPageModel().addAdditionalApplicantButton);
+                Thread.sleep(1000);
+                smbReviewPage.waitForSpinnerToDisappear();
 
 //            String pageSource = seleniumdriver.getWebDriver().getPageSource();
 //            String textToCheck = "Proceed without prefill";
@@ -174,24 +191,25 @@ public class SmbPersonalPageStepDefinition {
 //                smbReviewPage.waitForSpinnerToDisappear();
 //            }
 
-            JSONObject jsonObject = new JSONObject(row);
-            ObjectMapper objectMapper = new ObjectMapper();
-            Person person = objectMapper.readValue(jsonObject.toString(), Person.class);
+                JSONObject jsonObject = new JSONObject(row);
+                ObjectMapper objectMapper = new ObjectMapper();
+                Person person = objectMapper.readValue(jsonObject.toString(), Person.class);
 
-            Validation validation = new Validation();
-            validation.setSkipPreferredContactDropdown(true);
-            validation.setSkipEmploymentStatusDropdown(true);
+                Validation validation = new Validation();
+                validation.setSkipPreferredContactDropdown(true);
+                validation.setSkipEmploymentStatusDropdown(true);
 
-            stepData.setValidation(validation);
-            person.setValidation(validation);
-            stepData.setPerson(person);
+                stepData.setValidation(validation);
+                person.setValidation(validation);
+                stepData.setPerson(person);
 
-//            smbReviewPage.addApplicantsForSmb(person, targetIndex+1);
-            DataCSVExtractor.applicantCount++;
-            currentIndex++;
-            log.info("Added applicant index: " + targetIndex);
+            smbReviewPage.addApplicantsForSmb(person, targetIndex+1);
+                DataCSVExtractor.applicantCount++;
+                currentIndex++;
+                log.info("Added applicant index: " + targetIndex);
+            }
         }
-    }
+        }
 
     @Then(": I click on personal details next button for smb")
     public void iClickOnPersonalDetailsNextButtonForSmb() throws InterruptedException {

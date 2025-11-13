@@ -226,13 +226,22 @@ public class BusinessInfoPage extends SmbProductSelectorPage {
         Thread.sleep(500);
         waitForSpinnerToDisappear();
         Thread.sleep(500);
-        log.info("selecting preferred id method {}", business.getNaicsCode());
-        if (business.getNaicsCode().equalsIgnoreCase("soybean farming")) {
-            browserActions.clickButton(getSeleniumdriver(),
-                    getBusinessInfoPageModel().soybeanFarmingSelected);
-        }
-        log.info("Soyabean selected");
-        Thread.sleep(500);
+
+        WebElement BAText = applicantUtil.getWebElement(getSeleniumdriver(), getBusinessInfoPageModel().businessActivity, business.getNaicsCode());
+        browserActions.scrollToWebElement(getSeleniumdriver(), BAText);
+        wait(BAText);
+        selectElement(getSeleniumdriver().getWebDriver(), BAText);
+        BAText.click();
+
+
+
+//        log.info("selecting preferred id method {}", business.getNaicsCode());
+//        if (business.getNaicsCode().equalsIgnoreCase("soybean farming")) {
+//            browserActions.clickButton(getSeleniumdriver(),
+//                    getBusinessInfoPageModel().soybeanFarmingSelected);
+//        }
+//        log.info("Soyabean selected");
+//        Thread.sleep(500);
 
 
 

@@ -75,7 +75,9 @@ public class SmbBusinessPageStepDefinition {
         Thread.sleep(1000);
         smbReviewPage.waitWithSpinner(smbReviewPage.getBusinessInfoPageModel().businessInfoNextButon);
         browserActions.clickButton(seleniumdriver, smbReviewPage.getBusinessInfoPageModel().businessInfoNextButon);
+        Thread.sleep(1000);
         smbReviewPage.waitForSpinnerToDisappear();
+        Thread.sleep(1000);
     }
 
 }
