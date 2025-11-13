@@ -53,9 +53,9 @@ public class SmbPersonalInfoPageModel {
 
     public String IamNotSubjectTo = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-checkbox[@t-model='Accepted__c']";
 
-    public String IsPEPPresent = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-radio-group[@t-model='Is_PEP_Present']";
+    public String IsPEPPresent = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.0']//tf-radio-group[@t-model='Is_PEP_Present']//tf-radio//span[contains(text(),'No')]";
 
-    public String PEPMemberType = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='PEP_Member_Type']";
+    public String PEPMemberType = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='PEP_Member_Type']//input";
 
 //    public String APlastname = "//tf-input[@t-model=/'LastName__c/']";
 //    public String APssn = "//tf-input[@t-model=/'Last4NationalIdentifierValue__c/']";
