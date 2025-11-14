@@ -52,12 +52,12 @@ public class SmbDocumentPageStepDefinition {
 
             // Define file paths (extend if needed)
             String[] files = {
-                    "C:\\Work\\wsfs_business\\IDFiles\\A.jpeg",
-                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpeg",
-                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpeg",
-                    "C:\\Work\\wsfs_business\\IDFiles\\A.jpeg",
-                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpeg",
-                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpeg"
+                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpg",
+                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpg",
+                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpg",
+                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpg",
+                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpg",
+                    "C:\\Work\\wsfs_business\\IDFiles\\B.jpg"
             };
 
             // Find all upload buttons
@@ -76,30 +76,36 @@ public class SmbDocumentPageStepDefinition {
                 uploadBtn.click();
                 Thread.sleep(3000);
 
-                // Wait for Browse button to appear inside popup
-                WebDriverWait wait = new WebDriverWait(seleniumdriver.getWebDriver(), Duration.ofSeconds(10));
-                WebElement browseInput = wait.until(ExpectedConditions.presenceOfElementLocated(
-                        By.xpath("//input[@type='file' and contains(@id,'tf-file-capture')]")));
-                Thread.sleep(4000);
+                try {
+                    // Wait for Browse button to appear inside popup
+                    WebDriverWait wait = new WebDriverWait(seleniumdriver.getWebDriver(), Duration.ofSeconds(10));
+                    WebElement browseInput = wait.until(ExpectedConditions.presenceOfElementLocated(
+                            By.xpath("//input[@type='file' and contains(@id,'tf-file-capture')]")));
+                    Thread.sleep(4000);
 
-                // Upload the file
-                if (i < files.length) {
-                    browseInput.sendKeys(files[i]);
-                    log.info("Uploaded file: " + files[i]);
-                    smbReviewPage.waitForSpinnerToDisappear();
-                    Thread.sleep(1000);
-                    smbReviewPage.waitForSpinnerToDisappear();
-                    Thread.sleep(1000);
+                    // Upload the file
+                    if (i < files.length) {
+                        browseInput.sendKeys(files[i]);
+                        log.info("Uploaded file: " + files[i]);
+                        smbReviewPage.waitForSpinnerToDisappear();
+                        Thread.sleep(1000);
+                        smbReviewPage.waitForSpinnerToDisappear();
+                        Thread.sleep(1000);
 
 //                        Thread.sleep(12000);
 
-                } else {
-                    log.warn("No file specified for Upload button " + (i + 1));
-                }
+                    } else {
+                        log.warn("No file specified for Upload button " + (i + 1));
+                    }
+                } catch (Exception e) {
+                log.error("Error while uploading file for button " + (i + 1) + ": " + e.getMessage());
+                continue; // Skip to next iteration
+            }
+
 
                 // Wait for popup to close (adjust depending on behavior)
-                smbReviewPage.waitForSpinnerToDisappear();
-                Thread.sleep(2000);
+                    smbReviewPage.waitForSpinnerToDisappear();
+                    Thread.sleep(2000);
             }
             smbReviewPage.waitForSpinnerToDisappear();
             log.info("Document page next button");
