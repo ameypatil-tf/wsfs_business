@@ -219,11 +219,22 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
                 applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().IsPEPPresent, index));
         log.info("PEP answer Selected");
 
-        log.info("PEPMemberType");
-        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPMemberType, index));
-        wait(element(getSmbPersonalInfoPageModel().PEPMemberType, index));
-        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPMemberType, index));
-        WebElement MemberText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().MemberText, person.getMemberType());
+//        log.info("PEPMemberType");
+//        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPMemberType, index));
+//        wait(element(getSmbPersonalInfoPageModel().PEPMemberType, index));
+//        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPMemberType, index));
+//        WebElement MemberText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().MemberText, person.getMemberType());
+//        browserActions.scrollToWebElement(getSeleniumdriver(), MemberText);
+//        wait(MemberText);
+//        selectElement(getSeleniumdriver().getWebDriver(), MemberText);
+//        MemberText.click();
+//        Thread.sleep(2000);
+
+        log.info("PEPCountryType");
+        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPCountryType, index));
+        wait(element(getSmbPersonalInfoPageModel().PEPCountryType, index));
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().PEPCountryType, index));
+        WebElement MemberText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().MemberText, "Afghanistan");
         browserActions.scrollToWebElement(getSeleniumdriver(), MemberText);
         wait(MemberText);
         selectElement(getSeleniumdriver().getWebDriver(), MemberText);
@@ -345,8 +356,8 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
 
         waitForSpinnerToDisappear();
         log.info("Moved after proceed with prefill");
-////        WebElement firstName= applicantUtil.getWebElement(getSeleniumdriver(),getSmbPersonalInfoPageModel().firstName, index);
-////        waitWithSpinner(firstName);
+//        WebElement firstName= applicantUtil.getWebElement(getSeleniumdriver(),getSmbPersonalInfoPageModel().firstName, index);
+//        waitWithSpinner(firstName);
 //        browserActions.scrollToWebElement(getSeleniumdriver(),firstName);
 
 

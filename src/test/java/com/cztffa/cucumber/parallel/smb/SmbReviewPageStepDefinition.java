@@ -122,8 +122,6 @@ public class SmbReviewPageStepDefinition {
     @Then(": I should see the reference Id page for final submission of smb")
     public void iShouldSeeTheReferenceIdPageForFinalSubmissionOfSmb() throws InterruptedException {
         log.info("On Reference Id page");
-        DataCSVExtractor.smbapplicationCount++;
-//        assertTrue(smbReviewPage.getSmbReviewPageModel().successMsg.isDisplayed());
         log.info("Successful executed the whole flow ");
         Thread.sleep(2000);
         smbReviewPage.spinner();

@@ -118,7 +118,7 @@ public class SmbHomePageStepDefinition {
         //assertTrue(reviewPage.getReviewPageModel().isRequiredError.isDisplayed());
     }
 
-    @After()
+    @After("@SMBFlow")
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             final byte[] screenshot = ((TakesScreenshot) seleniumdriver.getWebDriver())

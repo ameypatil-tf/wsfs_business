@@ -54,16 +54,12 @@ public class SmbProductSelectorStepDefinition {
             smbReviewPage.waitForSpinnerToDisappear();
             log.info("On click of checkout btn");
             smbReviewPage.waitWithSpinner(smbReviewPage.getSmbProductSelectorPageModel().checkout);
-            Thread.sleep(5000);
             browserActions.scrollToWebElement(seleniumdriver, smbReviewPage.getSmbProductSelectorPageModel().checkout);
             Thread.sleep(1000);
             browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbProductSelectorPageModel().checkout);
-            Thread.sleep(5000);
+            Thread.sleep(1000);
             log.info("After click of checkout btn");
             smbReviewPage.waitForSpinnerToDisappear();
-//            smbReviewPage.waitWithSpinner(smbReviewPage.getSmbProductSelectorPageModel().proceedBtn);
-//            browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbProductSelectorPageModel().proceedBtn);
-            log.info("After click of proceed btn");
         }
 
 
