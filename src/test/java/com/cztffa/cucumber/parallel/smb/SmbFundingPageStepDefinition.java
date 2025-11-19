@@ -75,6 +75,7 @@ public class SmbFundingPageStepDefinition {
                 smbReviewPage.addFundDetailsForSMB(funding);
                 log.info("Funding added for submissionId: " + submissionId);
             }
+            break;
         }
         log.info("Funding Page Completed for submissionId: " + submissionId);
     }
