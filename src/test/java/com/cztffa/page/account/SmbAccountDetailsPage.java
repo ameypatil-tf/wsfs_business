@@ -19,9 +19,24 @@ import lombok.extern.slf4j.Slf4j;
 public class SmbAccountDetailsPage extends SmbMemberDiligence {
 
     public void addAcountDetails(Person person) throws InterruptedException {
+        WebDriver driver = getSeleniumdriver().getWebDriver();
         person.getAccountDetails().isSkipped();
         //		log.info("Inside account deatils skipped");
         //		closeWindows();
+
+        Thread.sleep(1000);
+        List<WebElement> toggleButtons = driver.findElements(By.xpath("//div//tf-checkbox[@t-model='selected']"));
+        log.info("Found " + toggleButtons.size() + " sign buttons to click.");
+        for (int i = 0; i < toggleButtons.size(); i++) {
+            log.info("Clicking on Sign button " + i);
+            WebElement btn = toggleButtons.get(i);
+            Thread.sleep(100);
+            browserActions.scrollToWebElement(getSeleniumdriver(), btn);
+            Thread.sleep(100);
+            btn.click();
+        }
+
+
         JavascriptExecutor j = (JavascriptExecutor) getSeleniumdriver().getWebDriver();
         j.executeScript("window.scrollBy(0,500)");
         Thread.sleep(3000);

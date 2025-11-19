@@ -22834,3 +22834,1210 @@ No cause returned
 2025-11-18 14:24:08,630 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
 2025-11-18 14:24:10,765 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
 2025-11-18 14:24:11,201 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 14:44:02,189 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 14:44:02,205 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-18 14:44:02,205 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-18 14:44:02,205 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 14:44:02,205 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-18 14:44:02,205 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-18 14:44:02,205 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-18 14:44:02,252 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-18 14:44:03,430 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-18 14:44:03,459 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-18 14:44:03,470 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-18 14:44:05,082 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-18 14:44:10,353 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-18 14:44:10,354 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-18 14:44:10,362 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-18 14:44:15,015 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-18 14:44:15,194 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-18 14:44:16,846 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-18 14:44:16,846 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-18 14:44:16,895 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-18 14:44:18,112 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-18 14:44:19,294 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-18 14:44:23,364 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-18 14:44:24,418 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-18 14:44:24,593 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-18 14:44:26,991 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 14:44:27,215 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-18 14:44:27,217 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 14:44:27,219 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 14:44:27,732 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 14:44:28,737 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-18 14:44:31,016 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-18 14:44:31,177 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-18 14:44:32,180 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-18 14:44:35,774 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-18 14:44:43,097 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-18 14:44:43,149 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-18 14:44:43,178 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 14:44:44,386 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-18 14:44:44,409 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-18 14:44:44,620 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-18 14:44:44,971 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-18 14:44:44,971 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-18 14:44:46,288 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-18 14:44:47,579 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-18 14:44:49,365 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-18 14:44:49,365 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-18 14:44:49,365 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-18 14:44:50,741 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:44:54,424 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:44:55,449 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-18 14:44:56,820 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:44:58,098 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-18 14:44:59,114 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-18 14:45:00,870 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-18 14:45:02,205 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-18 14:45:02,987 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-18 14:45:04,035 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:45:04,890 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-18 14:45:04,890 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-18 14:45:05,943 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 14:45:06,102 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-18 14:45:08,462 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:45:08,595 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-18 14:45:08,831 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (433359f4dc79331debd6906e7d8ab103)] -> xpath: //button[normalize-space()='Next']]
+2025-11-18 14:45:17,333 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-18 14:45:18,483 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 14:45:19,741 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-18 14:45:20,083 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-18 14:45:20,367 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-18 14:45:20,710 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-18 14:45:22,690 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:45:27,844 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:45:28,612 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-18 14:45:29,617 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-18 14:45:31,365 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-18 14:45:32,894 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-18 14:45:33,218 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-18 14:45:33,597 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-18 14:45:34,720 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:45:37,145 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-18 14:45:38,369 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:45:39,253 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-18 14:45:39,653 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-18 14:45:39,920 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-18 14:45:39,920 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-18 14:45:40,106 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-18 14:45:40,115 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPCountryType
+2025-11-18 14:45:41,345 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:45:43,433 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-18 14:45:43,887 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 14:46:23,320 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-18 14:46:23,321 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-18 14:46:23,322 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case unknown error: Call WaitForPendingNavigations only on the parent WebView
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [433359f4dc79331debd6906e7d8ab103, findElement {using=xpath, value=//button[normalize-space()='Continue']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50837}, goog:processID: 7008, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50837/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 433359f4dc79331debd6906e7d8ab103
+2025-11-18 14:46:36,978 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 14:46:36,978 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-18 14:46:36,978 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-18 14:46:36,978 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 14:46:36,994 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-18 14:46:36,994 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-18 14:46:36,994 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-18 14:46:37,045 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-18 14:46:38,060 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-18 14:46:38,089 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-18 14:46:38,100 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-18 14:46:39,669 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-18 14:46:44,395 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-18 14:46:44,395 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-18 14:46:44,491 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-18 14:46:49,001 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-18 14:46:49,138 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-18 14:46:50,406 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-18 14:46:50,407 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-18 14:46:50,448 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-18 14:46:51,670 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-18 14:46:52,817 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-18 14:46:56,419 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-18 14:46:57,469 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-18 14:46:57,657 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-18 14:46:59,970 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 14:47:00,187 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-18 14:47:00,189 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 14:47:00,192 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 14:47:00,697 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 14:47:01,703 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-18 14:47:03,948 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-18 14:47:04,089 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-18 14:47:05,100 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-18 14:47:08,542 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-18 14:47:14,041 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-18 14:47:14,078 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-18 14:47:14,119 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 14:47:15,304 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-18 14:47:15,321 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-18 14:47:15,519 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-18 14:47:15,761 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-18 14:47:15,763 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-18 14:47:16,970 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-18 14:47:18,214 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-18 14:47:19,871 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-18 14:47:19,871 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-18 14:47:19,871 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-18 14:47:21,259 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:47:24,826 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:47:25,855 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-18 14:47:27,179 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:47:28,466 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-18 14:47:29,485 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-18 14:47:31,251 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-18 14:47:32,644 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-18 14:47:33,437 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-18 14:47:34,535 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:47:35,346 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-18 14:47:35,346 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-18 14:47:36,413 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 14:47:36,527 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-18 14:47:38,899 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:47:39,064 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-18 14:47:39,297 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (8272a6abfb2a0ad2b85e3a4757b79c5f)] -> xpath: //button[normalize-space()='Next']]
+2025-11-18 14:47:47,292 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-18 14:47:48,432 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 14:47:49,672 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-18 14:47:50,034 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-18 14:47:50,319 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-18 14:47:50,625 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-18 14:47:52,570 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:47:57,681 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:47:58,297 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-18 14:47:59,311 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-18 14:48:01,130 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-18 14:48:02,691 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-18 14:48:03,008 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-18 14:48:03,372 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-18 14:48:04,590 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:48:07,051 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-18 14:48:08,251 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:48:08,945 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-18 14:48:09,319 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-18 14:48:09,639 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-18 14:48:09,639 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-18 14:48:09,833 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-18 14:48:09,833 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPCountryType
+2025-11-18 14:48:11,082 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:48:13,248 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-18 14:48:13,763 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 14:49:11,142 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Finished scenario Happy flow of single business scenario "1"
+2025-11-18 14:49:11,142 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Final line it got executed 45 
+2025-11-18 14:49:11,142 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Status of the scenario FAILED 
+2025-11-18 14:49:11,452 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-18 14:49:11,452 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-18 14:49:11,452 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[normalize-space()='Continue']' (tried for 30 second(s) with 500 milliseconds interval)
+2025-11-18 14:54:37,793 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 14:54:37,796 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-18 14:54:37,796 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-18 14:54:37,801 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 14:54:37,804 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-18 14:54:37,804 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-18 14:54:37,804 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-18 14:54:37,839 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-18 14:54:38,984 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-18 14:54:39,019 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-18 14:54:39,030 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-18 14:54:40,576 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-18 14:54:46,253 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-18 14:54:46,254 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-18 14:54:46,262 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-18 14:54:50,209 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-18 14:54:50,384 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-18 14:54:51,947 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-18 14:54:51,948 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-18 14:54:52,002 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-18 14:54:53,217 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-18 14:54:54,359 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-18 14:54:57,899 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-18 14:54:58,962 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-18 14:54:59,152 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-18 14:55:01,445 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 14:55:01,652 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-18 14:55:01,652 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 14:55:01,659 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 14:55:02,127 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 14:55:03,139 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-18 14:55:05,391 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-18 14:55:05,545 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-18 14:55:06,548 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-18 14:55:09,969 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-18 14:55:16,028 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-18 14:55:16,076 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-18 14:55:16,114 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 14:55:17,311 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-18 14:55:17,329 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-18 14:55:17,489 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-18 14:55:17,739 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-18 14:55:17,739 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-18 14:55:18,974 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-18 14:55:20,192 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-18 14:55:21,807 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-18 14:55:21,809 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-18 14:55:21,809 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-18 14:55:23,154 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:55:26,756 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:55:27,786 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-18 14:55:29,100 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:55:30,374 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-18 14:55:31,382 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-18 14:55:33,189 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-18 14:55:34,572 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-18 14:55:35,379 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-18 14:55:36,442 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:55:37,250 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-18 14:55:37,250 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-18 14:55:38,319 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 14:55:38,465 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-18 14:55:40,949 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:55:41,060 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-18 14:55:41,278 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Next']]
+2025-11-18 14:55:49,771 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-18 14:55:50,908 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 14:55:52,160 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-18 14:55:52,487 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-18 14:55:52,722 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-18 14:55:52,946 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-18 14:55:54,885 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:56:00,044 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:56:00,756 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-18 14:56:01,764 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-18 14:56:03,560 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-18 14:56:04,983 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-18 14:56:05,273 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-18 14:56:05,606 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-18 14:56:06,761 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:56:09,244 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-18 14:56:10,452 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:56:11,417 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-18 14:56:11,789 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-18 14:56:12,063 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-18 14:56:12,065 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-18 14:56:12,213 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-18 14:56:12,213 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPMemberType
+2025-11-18 14:56:13,472 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:56:15,588 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-18 14:56:16,133 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 14:56:37,210 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 14:56:40,916 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox
+2025-11-18 14:56:41,972 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+2025-11-18 14:56:42,093 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox selected
+2025-11-18 14:56:43,108 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering Relationship percentage if existed entered
+2025-11-18 14:56:45,407 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer
+2025-11-18 14:56:46,482 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-checkbox-group[@t-model='ApplicantRole__c']]
+2025-11-18 14:56:46,626 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer checkbox selected
+2025-11-18 14:56:47,640 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure
+2025-11-18 14:56:48,701 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 14:56:48,837 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure selected
+2025-11-18 14:56:48,837 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 14:56:48,882 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicking on personal Info Next button
+2025-11-18 14:57:21,680 [TestNG-PoolService-0] ERROR com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - failed to close the close button
+2025-11-18 14:57:21,707 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - i am on relation page
+2025-11-18 14:57:21,767 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - i am on Due dillegence page
+2025-11-18 14:57:21,908 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - providing due diligence detail
+2025-11-18 14:57:21,908 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Processing the CDD details
+2025-11-18 14:57:23,662 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Found 14 sign buttons to click.
+2025-11-18 14:57:23,665 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 0
+2025-11-18 14:57:24,056 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 1
+2025-11-18 14:57:24,471 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 2
+2025-11-18 14:57:24,894 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 3
+2025-11-18 14:57:25,268 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 4
+2025-11-18 14:57:25,624 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 5
+2025-11-18 14:57:25,983 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 6
+2025-11-18 14:57:26,400 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 7
+2025-11-18 14:57:26,778 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 8
+2025-11-18 14:57:27,128 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 9
+2025-11-18 14:57:27,494 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 10
+2025-11-18 14:57:27,870 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 11
+2025-11-18 14:57:28,270 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 12
+2025-11-18 14:57:28,612 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 13
+2025-11-18 14:57:29,147 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[@class='btn btn-primary float-end tf-step-action-next']]
+2025-11-18 14:57:38,086 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Processing the funding details
+2025-11-18 14:57:41,256 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Entering funding amount 0
+2025-11-18 14:57:45,165 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding amount added for Product: 0
+2025-11-18 14:57:45,165 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding Amount Completed for submissionId: 1
+2025-11-18 14:57:49,192 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Processing the funding details
+2025-11-18 14:57:49,192 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking funding dropdown
+2025-11-18 14:57:51,195 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:57:52,450 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on funding dropdown
+2025-11-18 14:57:52,450 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting source of funding
+2025-11-18 14:57:53,443 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:57:53,651 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Source of funding selected
+2025-11-18 14:58:02,841 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:58:04,952 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - switching window
+2025-11-18 14:58:09,024 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Window switched
+2025-11-18 14:58:13,614 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on continue as guest button
+2025-11-18 14:58:17,699 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:58:17,699 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - selecting Bank account
+2025-11-18 14:58:18,730 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - bank name locator[[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[@aria-label='Chase']]
+2025-11-18 14:58:18,747 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[@aria-label='Chase']]
+2025-11-18 14:58:19,980 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Continue to login button
+2025-11-18 14:58:25,606 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Continue to login']]
+2025-11-18 14:58:35,090 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:58:35,114 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Entering username and password
+2025-11-18 14:58:36,125 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Sign in button
+2025-11-18 14:58:37,189 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Sign in']]
+2025-11-18 14:58:43,287 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:58:43,287 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Get code button
+2025-11-18 14:58:45,419 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Get code']]
+2025-11-18 14:58:47,575 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:58:47,575 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Submit button
+2025-11-18 14:58:49,747 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Submit']]
+2025-11-18 14:58:51,878 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Plaid Checking
+2025-11-18 14:59:03,634 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Connect account information']]
+2025-11-18 14:59:05,183 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on Connected account Information button
+2025-11-18 14:59:08,249 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Switched frame to frame Plaid
+2025-11-18 14:59:12,384 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:59:12,384 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Moved to the last continue button finish without saving
+2025-11-18 14:59:15,390 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Moved to the last continue button fish without saving
+2025-11-18 14:59:17,596 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //button[normalize-space()='Finish without saving']]
+2025-11-18 14:59:17,822 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on Continue without saving button
+2025-11-18 14:59:17,823 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting External account
+2025-11-18 14:59:25,900 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:59:27,044 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 14:59:27,061 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //div//tf-dropdown]
+2025-11-18 14:59:27,200 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on External account dropdown
+2025-11-18 14:59:27,201 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting checkbox
+2025-11-18 14:59:27,267 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 14:59:28,469 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Finished processing of Funding details
+2025-11-18 14:59:28,469 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding added for submissionId: 1
+2025-11-18 14:59:28,469 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding Page Completed for submissionId: 1
+2025-11-18 14:59:42,305 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - i am going looking at documents page
+2025-11-18 14:59:42,336 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - I am at documents page 
+2025-11-18 14:59:43,438 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - I am at documents page
+2025-11-18 14:59:43,455 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Total Upload buttons found: 6
+2025-11-18 14:59:43,459 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 1 of 6
+2025-11-18 14:59:50,197 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 14:59:56,658 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 2 of 6
+2025-11-18 14:59:59,865 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:00:06,310 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 3 of 6
+2025-11-18 15:00:20,669 [TestNG-PoolService-0] ERROR com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Error while uploading file for button 3: Expected condition failed: waiting for presence of element located by: By.xpath: //input[@type='file' and contains(@id,'tf-file-capture')] (tried for 10 second(s) with 500 milliseconds interval)
+2025-11-18 15:00:20,673 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 4 of 6
+2025-11-18 15:00:23,921 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:00:30,878 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 5 of 6
+2025-11-18 15:00:34,054 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:00:40,494 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 6 of 6
+2025-11-18 15:00:43,697 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:00:49,593 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Document page next button
+2025-11-18 15:00:49,975 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Document page next button clicked
+2025-11-18 15:00:49,977 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - i am at terms and condition page
+2025-11-18 15:00:56,953 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Scrolling complete
+2025-11-18 15:00:56,953 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - After Scrolling
+2025-11-18 15:00:58,023 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 15:00:59,224 [TestNG-PoolService-0] ERROR com.cztffa.browseractions.BrowserActions - element click intercepted: Element is not clickable at point (490, -131)
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e620f246e4e136659c18511c0b24fa, clickElement {id=f.8228B7D175CBFA13DD1615B5E12502E6.d.0B9730C86F0AF3BA03FB48760F2C8EF6.e.601}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57159}, goog:processID: 9492, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57159/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (95e620f246e4e136659c18511c0b24fa)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+Session ID: 95e620f246e4e136659c18511c0b24fa
+2025-11-18 15:00:59,224 [TestNG-PoolService-0] ERROR com.cztffa.exception.UXException - element click intercepted: Element is not clickable at point (490, -131)
+No cause returned
+2025-11-18 15:00:59,224 [TestNG-PoolService-0] INFO com.cztffa.application.AbstractWebApplication - Capturing screenshot as ./Screenshots/capture.png
+2025-11-18 15:00:59,335 [TestNG-PoolService-0] WARN com.cztffa.application.AbstractWebApplication - Failed to delete screenshot - capture.png
+2025-11-18 15:00:59,366 [TestNG-PoolService-0] WARN com.cztffa.application.AbstractWebApplication - Failed to delete Report Portal screenshot - rp_capture.png
+2025-11-18 15:00:59,380 [TestNG-PoolService-0] INFO com.cztffa.exception.UXException - Finished the attempt to capture a screenshot
+2025-11-18 15:00:59,549 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Finished scenario Happy flow of single business scenario "1"
+2025-11-18 15:00:59,549 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Final line it got executed 45 
+2025-11-18 15:00:59,555 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Status of the scenario FAILED 
+2025-11-18 15:00:59,906 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-18 15:00:59,907 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-18 15:00:59,907 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case element click intercepted: Element is not clickable at point (490, -131)
+No cause returned
+2025-11-18 15:09:53,349 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 15:09:53,349 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-18 15:09:53,349 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-18 15:09:53,365 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 15:09:53,381 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-18 15:09:53,381 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-18 15:09:53,381 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-18 15:09:53,492 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-18 15:09:55,683 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-18 15:09:55,758 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-18 15:09:55,773 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-18 15:09:58,481 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-18 15:10:03,918 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-18 15:10:03,918 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-18 15:10:03,922 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-18 15:10:09,374 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-18 15:10:09,583 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-18 15:10:10,901 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-18 15:10:10,901 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-18 15:10:10,949 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-18 15:10:12,190 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-18 15:10:13,381 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-18 15:10:17,397 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-18 15:10:18,456 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-18 15:10:18,629 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-18 15:10:21,037 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 15:10:21,240 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-18 15:10:21,240 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 15:10:21,244 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 15:10:21,745 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 15:10:22,756 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-18 15:10:25,029 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-18 15:10:25,164 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-18 15:10:26,187 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-18 15:10:29,658 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-18 15:10:36,328 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-18 15:10:36,376 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-18 15:10:36,405 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 15:10:37,549 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-18 15:10:37,567 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-18 15:10:37,693 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-18 15:10:37,920 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-18 15:10:37,922 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-18 15:10:39,106 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-18 15:10:40,338 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-18 15:10:42,047 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-18 15:10:42,047 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-18 15:10:42,047 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-18 15:10:43,409 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:10:47,007 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:10:48,037 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-18 15:10:49,374 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:10:50,681 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-18 15:10:51,694 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-18 15:10:53,489 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-18 15:10:54,849 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-18 15:10:55,639 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-18 15:10:56,650 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:10:57,440 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-18 15:10:57,440 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-18 15:10:58,495 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 15:10:58,623 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-18 15:11:01,001 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:11:01,145 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-18 15:11:01,363 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Next']]
+2025-11-18 15:11:09,915 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-18 15:11:11,065 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 15:11:12,279 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-18 15:11:12,597 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-18 15:11:12,843 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-18 15:11:13,087 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-18 15:11:14,986 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:11:20,134 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:11:20,798 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-18 15:11:21,800 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-18 15:11:23,608 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-18 15:11:25,161 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-18 15:11:25,459 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-18 15:11:25,822 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-18 15:11:26,969 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:11:29,456 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-18 15:11:30,678 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:11:31,582 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-18 15:11:32,028 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-18 15:11:32,310 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-18 15:11:32,310 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-18 15:11:32,448 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-18 15:11:32,451 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPMemberType
+2025-11-18 15:11:33,731 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:11:35,881 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-18 15:11:36,412 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 15:11:56,649 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 15:12:00,494 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox
+2025-11-18 15:12:01,553 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+2025-11-18 15:12:01,675 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox selected
+2025-11-18 15:12:02,682 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering Relationship percentage if existed entered
+2025-11-18 15:12:04,929 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer
+2025-11-18 15:12:06,013 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //tf-checkbox-group[@t-model='ApplicantRole__c']]
+2025-11-18 15:12:06,158 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer checkbox selected
+2025-11-18 15:12:07,171 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure
+2025-11-18 15:12:08,236 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 15:12:08,322 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure selected
+2025-11-18 15:12:08,322 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 15:12:08,381 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicking on personal Info Next button
+2025-11-18 15:12:41,036 [TestNG-PoolService-0] ERROR com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - failed to close the close button
+2025-11-18 15:12:41,068 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - i am on relation page
+2025-11-18 15:12:41,148 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - i am on Due dillegence page
+2025-11-18 15:12:41,322 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - providing due diligence detail
+2025-11-18 15:12:41,322 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Processing the CDD details
+2025-11-18 15:12:43,124 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Found 14 sign buttons to click.
+2025-11-18 15:12:43,131 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 0
+2025-11-18 15:12:43,547 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 1
+2025-11-18 15:12:43,932 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 2
+2025-11-18 15:12:44,328 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 3
+2025-11-18 15:12:44,724 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 4
+2025-11-18 15:12:45,084 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 5
+2025-11-18 15:12:45,459 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 6
+2025-11-18 15:12:45,800 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 7
+2025-11-18 15:12:46,212 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 8
+2025-11-18 15:12:46,579 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 9
+2025-11-18 15:12:46,936 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 10
+2025-11-18 15:12:47,330 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 11
+2025-11-18 15:12:47,697 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 12
+2025-11-18 15:12:48,097 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 13
+2025-11-18 15:12:48,694 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[@class='btn btn-primary float-end tf-step-action-next']]
+2025-11-18 15:12:57,701 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Processing the funding details
+2025-11-18 15:13:00,846 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Entering funding amount 0
+2025-11-18 15:13:04,753 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding amount added for Product: 0
+2025-11-18 15:13:04,756 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding Amount Completed for submissionId: 1
+2025-11-18 15:13:08,777 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Processing the funding details
+2025-11-18 15:13:08,777 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking funding dropdown
+2025-11-18 15:13:10,850 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:13:12,088 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on funding dropdown
+2025-11-18 15:13:12,088 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting source of funding
+2025-11-18 15:13:12,980 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:13:13,174 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Source of funding selected
+2025-11-18 15:13:22,956 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:13:25,054 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - switching window
+2025-11-18 15:13:29,135 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Window switched
+2025-11-18 15:13:33,731 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on continue as guest button
+2025-11-18 15:13:37,803 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:13:37,803 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - selecting Bank account
+2025-11-18 15:13:38,839 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - bank name locator[[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[@aria-label='Chase']]
+2025-11-18 15:13:38,859 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[@aria-label='Chase']]
+2025-11-18 15:13:40,082 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Continue to login button
+2025-11-18 15:13:45,651 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Continue to login']]
+2025-11-18 15:13:55,001 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:13:55,022 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Entering username and password
+2025-11-18 15:13:56,035 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Sign in button
+2025-11-18 15:13:57,107 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Sign in']]
+2025-11-18 15:14:03,379 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:14:03,379 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Get code button
+2025-11-18 15:14:05,527 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Get code']]
+2025-11-18 15:14:07,687 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:14:07,687 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Submit button
+2025-11-18 15:14:09,792 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Submit']]
+2025-11-18 15:14:11,869 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Plaid Checking
+2025-11-18 15:14:23,629 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Connect account information']]
+2025-11-18 15:14:24,704 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on Connected account Information button
+2025-11-18 15:14:27,803 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Switched frame to frame Plaid
+2025-11-18 15:14:31,905 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:14:31,905 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Moved to the last continue button finish without saving
+2025-11-18 15:14:34,913 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Moved to the last continue button fish without saving
+2025-11-18 15:14:37,099 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Finish without saving']]
+2025-11-18 15:14:37,318 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on Continue without saving button
+2025-11-18 15:14:37,323 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting External account
+2025-11-18 15:14:45,379 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:14:46,583 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 15:14:46,603 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //div//tf-dropdown]
+2025-11-18 15:14:46,737 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on External account dropdown
+2025-11-18 15:14:46,738 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting checkbox
+2025-11-18 15:14:46,791 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 15:14:48,014 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Finished processing of Funding details
+2025-11-18 15:14:48,014 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding added for submissionId: 1
+2025-11-18 15:14:48,014 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding Page Completed for submissionId: 1
+2025-11-18 15:15:00,202 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - i am going looking at documents page
+2025-11-18 15:15:00,239 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - I am at documents page 
+2025-11-18 15:15:01,376 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - I am at documents page
+2025-11-18 15:15:01,390 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Total Upload buttons found: 6
+2025-11-18 15:15:01,390 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 1 of 6
+2025-11-18 15:15:04,611 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:15:12,135 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 2 of 6
+2025-11-18 15:15:15,373 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:15:21,794 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 3 of 6
+2025-11-18 15:15:36,184 [TestNG-PoolService-0] ERROR com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Error while uploading file for button 3: Expected condition failed: waiting for presence of element located by: By.xpath: //input[@type='file' and contains(@id,'tf-file-capture')] (tried for 10 second(s) with 500 milliseconds interval)
+2025-11-18 15:15:36,184 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 4 of 6
+2025-11-18 15:15:39,523 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:15:45,421 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 5 of 6
+2025-11-18 15:15:48,614 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:15:55,602 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 6 of 6
+2025-11-18 15:15:58,787 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 15:16:04,675 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Document page next button
+2025-11-18 15:16:05,042 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Document page next button clicked
+2025-11-18 15:16:05,052 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - i am at terms and condition page
+2025-11-18 15:16:11,817 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Scrolling complete
+2025-11-18 15:16:11,817 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - After Scrolling
+2025-11-18 15:16:12,920 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 15:16:13,030 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:16:13,030 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[2]
+2025-11-18 15:16:13,046 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 2
+2025-11-18 15:16:14,077 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[2]]
+2025-11-18 15:16:15,317 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:16:15,317 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:16:29,675 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:16:29,676 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[3]
+2025-11-18 15:16:29,690 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 3
+2025-11-18 15:16:30,718 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[3]]
+2025-11-18 15:16:31,908 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:16:31,908 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:16:46,216 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:16:46,216 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[4]
+2025-11-18 15:16:46,248 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 4
+2025-11-18 15:16:47,282 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[4]]
+2025-11-18 15:16:48,445 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:16:48,445 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:17:02,748 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:17:02,748 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[5]
+2025-11-18 15:17:02,780 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 5
+2025-11-18 15:17:03,826 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[5]]
+2025-11-18 15:17:05,010 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:17:05,010 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:17:19,327 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:17:19,327 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[6]
+2025-11-18 15:17:19,358 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 6
+2025-11-18 15:17:20,402 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[6]]
+2025-11-18 15:17:21,558 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:17:21,559 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:17:35,921 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:17:35,921 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[7]
+2025-11-18 15:17:35,937 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 7
+2025-11-18 15:17:36,971 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[7]]
+2025-11-18 15:17:44,172 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:17:44,172 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:17:47,157 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside frame
+2025-11-18 15:18:02,590 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Selecting AdoptAndSignBtn
+2025-11-18 15:18:02,590 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking on Finish Button
+2025-11-18 15:18:02,623 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Finish']]
+2025-11-18 15:18:17,978 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:18:17,978 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[8]
+2025-11-18 15:18:18,007 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Clicking T&C 8
+2025-11-18 15:18:19,046 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: (//tf-checkbox[@t-model='Accepted__c']//input)[8]]
+2025-11-18 15:18:20,247 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Number of windows: 1
+2025-11-18 15:18:20,247 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Checking frame
+2025-11-18 15:18:34,541 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Inside while
+2025-11-18 15:18:34,541 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - (//tf-checkbox[@t-model='Accepted__c']//input)[9]
+2025-11-18 15:18:39,576 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4b87342a3e02ccf18ca5a5451807abe2)] -> xpath: //button[normalize-space()='Accept']]
+2025-11-18 15:18:40,707 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Before clicking on submit button
+2025-11-18 15:18:40,975 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - After clicking on submit button
+2025-11-18 15:18:52,990 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - On Reference Id page
+2025-11-18 15:18:52,993 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - Successful executed the whole flow 
+2025-11-18 15:19:03,147 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Finished scenario Happy flow of single business scenario "1"
+2025-11-18 15:19:03,147 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Final line it got executed 45 
+2025-11-18 15:19:03,149 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Status of the scenario PASSED 
+2025-11-18 15:19:03,947 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Finished scenario Happy flow of single business scenario "1"
+2025-11-18 15:19:03,947 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Final line it got executed 45 
+2025-11-18 15:19:03,947 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Status of the scenario PASSED 
+2025-11-18 15:19:03,970 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-18 15:19:03,970 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-18 15:19:03,970 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case Cannot invoke "com.cztffa.driver.SeleniumDriver.getWebDriver()" because "this.seleniumdriver" is null
+2025-11-18 18:01:09,250 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 18:01:09,256 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-18 18:01:09,256 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-18 18:01:09,261 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-18 18:01:09,263 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-18 18:01:09,263 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-18 18:01:09,266 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-18 18:01:09,312 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-18 18:01:10,686 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-18 18:01:10,718 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-18 18:01:10,734 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-18 18:01:12,144 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-18 18:01:15,456 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-18 18:01:15,456 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-18 18:01:15,456 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-18 18:01:19,238 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-18 18:01:19,329 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-18 18:01:21,038 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-18 18:01:21,038 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-18 18:01:21,064 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-18 18:01:22,183 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-18 18:01:23,284 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-18 18:01:28,324 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-18 18:01:29,378 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-18 18:01:29,504 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=Patilcons, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-18 18:01:31,297 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-18 18:01:31,416 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-18 18:01:31,417 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 18:01:31,418 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 18:01:31,734 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-18 18:01:32,738 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-18 18:01:34,935 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-18 18:01:35,022 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-18 18:01:36,031 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-18 18:01:39,423 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-18 18:01:44,853 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-18 18:01:44,885 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-18 18:01:44,901 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 18:01:46,022 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-18 18:01:46,031 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-18 18:01:46,119 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-18 18:01:46,231 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-18 18:01:46,231 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-18 18:01:47,358 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-18 18:01:48,494 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-18 18:01:49,867 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-18 18:01:49,868 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-18 18:01:49,868 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-18 18:01:51,214 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:01:54,658 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:01:55,696 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-18 18:01:57,015 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:01:58,203 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-18 18:01:59,213 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-18 18:02:00,906 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-18 18:02:02,122 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-18 18:02:02,830 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-18 18:02:03,592 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:02:04,261 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-18 18:02:04,262 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-18 18:02:05,305 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 18:02:05,369 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-18 18:02:07,529 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:02:07,610 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-18 18:02:07,703 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Next']]
+2025-11-18 18:02:15,442 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-18 18:02:16,576 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-18 18:02:17,738 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-18 18:02:17,909 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-18 18:02:18,067 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-18 18:02:18,196 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-18 18:02:20,060 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:02:25,070 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:02:25,465 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-18 18:02:26,473 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-18 18:02:28,186 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-18 18:02:29,510 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-18 18:02:29,691 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-18 18:02:29,912 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-18 18:02:30,927 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:02:33,191 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-18 18:02:34,127 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:02:34,550 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-18 18:02:34,820 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-18 18:02:34,990 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-18 18:02:34,992 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-18 18:02:35,115 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-18 18:02:35,116 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPMemberType
+2025-11-18 18:02:36,175 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:02:38,236 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-18 18:02:38,536 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 18:02:58,967 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-18 18:03:02,414 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox
+2025-11-18 18:03:03,479 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+2025-11-18 18:03:03,547 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox selected
+2025-11-18 18:03:04,554 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering Relationship percentage if existed entered
+2025-11-18 18:03:06,731 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer
+2025-11-18 18:03:07,797 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //tf-checkbox-group[@t-model='ApplicantRole__c']]
+2025-11-18 18:03:07,877 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer checkbox selected
+2025-11-18 18:03:08,890 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure
+2025-11-18 18:03:09,960 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //tf-checkbox[@t-model='Accepted__c']]
+2025-11-18 18:03:10,045 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure selected
+2025-11-18 18:03:10,045 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-18 18:03:10,091 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicking on personal Info Next button
+2025-11-18 18:03:42,625 [TestNG-PoolService-0] ERROR com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - failed to close the close button
+2025-11-18 18:03:42,657 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - i am on relation page
+2025-11-18 18:03:42,720 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - i am on Due dillegence page
+2025-11-18 18:03:42,815 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - providing due diligence detail
+2025-11-18 18:03:42,815 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Processing the CDD details
+2025-11-18 18:03:44,530 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Found 14 sign buttons to click.
+2025-11-18 18:03:44,530 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 0
+2025-11-18 18:03:44,861 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 1
+2025-11-18 18:03:45,176 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 2
+2025-11-18 18:03:45,476 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 3
+2025-11-18 18:03:45,801 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 4
+2025-11-18 18:03:46,116 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 5
+2025-11-18 18:03:46,424 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 6
+2025-11-18 18:03:46,726 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 7
+2025-11-18 18:03:47,023 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 8
+2025-11-18 18:03:47,323 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 9
+2025-11-18 18:03:47,632 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 10
+2025-11-18 18:03:47,939 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 11
+2025-11-18 18:03:48,257 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 12
+2025-11-18 18:03:48,548 [TestNG-PoolService-0] INFO com.cztffa.page.memberdiligence.SmbMemberDiligence - Clicking on Sign button 13
+2025-11-18 18:03:48,960 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[@class='btn btn-primary float-end tf-step-action-next']]
+2025-11-18 18:03:56,706 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Processing the funding details
+2025-11-18 18:03:59,834 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Entering funding amount 0
+2025-11-18 18:04:03,252 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding amount added for Product: 0
+2025-11-18 18:04:03,252 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding Amount Completed for submissionId: 1
+2025-11-18 18:04:07,269 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Processing the funding details
+2025-11-18 18:04:07,269 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking funding dropdown
+2025-11-18 18:04:09,204 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:04:10,307 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on funding dropdown
+2025-11-18 18:04:10,307 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting source of funding
+2025-11-18 18:04:11,213 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:04:11,298 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Source of funding selected
+2025-11-18 18:04:19,796 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:04:21,881 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - switching window
+2025-11-18 18:04:25,903 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Window switched
+2025-11-18 18:04:30,262 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on continue as guest button
+2025-11-18 18:04:34,377 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:04:34,377 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - selecting Bank account
+2025-11-18 18:04:35,412 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - bank name locator[[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[@aria-label='Chase']]
+2025-11-18 18:04:35,429 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[@aria-label='Chase']]
+2025-11-18 18:04:36,544 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Continue to login button
+2025-11-18 18:04:42,145 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Continue to login']]
+2025-11-18 18:04:51,499 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:04:51,537 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Entering username and password
+2025-11-18 18:04:52,552 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Sign in button
+2025-11-18 18:04:53,624 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Sign in']]
+2025-11-18 18:04:59,821 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:04:59,822 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Get code button
+2025-11-18 18:05:01,965 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Get code']]
+2025-11-18 18:05:04,035 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:05:04,036 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Submit button
+2025-11-18 18:05:06,111 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Submit']]
+2025-11-18 18:05:08,167 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicking on Plaid Checking
+2025-11-18 18:05:19,839 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Connect account information']]
+2025-11-18 18:05:20,958 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on Connected account Information button
+2025-11-18 18:05:24,038 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Switched frame to frame Plaid
+2025-11-18 18:05:28,116 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:05:28,116 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Moved to the last continue button finish without saving
+2025-11-18 18:05:31,130 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Moved to the last continue button fish without saving
+2025-11-18 18:05:33,243 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //button[normalize-space()='Finish without saving']]
+2025-11-18 18:05:33,339 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on Continue without saving button
+2025-11-18 18:05:33,343 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting External account
+2025-11-18 18:05:41,422 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:05:42,379 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-18 18:05:42,397 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (4755668f1a873c69691267b11e47cd2b)] -> xpath: //div//tf-dropdown]
+2025-11-18 18:05:42,463 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Clicked on External account dropdown
+2025-11-18 18:05:42,463 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Selecting checkbox
+2025-11-18 18:05:42,480 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-18 18:05:43,689 [TestNG-PoolService-0] INFO com.cztffa.page.funding.SmbFundingPage - Finished processing of Funding details
+2025-11-18 18:05:43,690 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding added for submissionId: 1
+2025-11-18 18:05:43,690 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbFundingPageStepDefinition - Funding Page Completed for submissionId: 1
+2025-11-18 18:05:54,792 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - i am going looking at documents page
+2025-11-18 18:05:54,816 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - I am at documents page 
+2025-11-18 18:05:55,934 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - I am at documents page
+2025-11-18 18:05:55,949 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Total Upload buttons found: 6
+2025-11-18 18:05:55,949 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 1 of 6
+2025-11-18 18:05:59,168 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Uploaded file: C:\Users\LENOVO\IdeaProjects\wsfs_business\IDFiles\dummy pdf.pdf
+2025-11-18 18:06:05,554 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Clicking Upload button 2 of 6
+2025-11-18 18:06:06,615 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbDocumentPageStepDefinition - Document Page not found
+2025-11-18 18:06:06,615 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbReviewPageStepDefinition - i am at terms and condition page
+2025-11-18 18:07:37,039 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-18 18:07:37,039 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-18 18:07:37,039 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case Expected condition failed: waiting for element to no longer be visible: By.xpath: //tf-spinner (tried for 90 second(s) with 500 milliseconds interval)
+2025-11-19 12:56:22,325 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-19 12:56:22,325 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-19 12:56:22,325 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-19 12:56:22,336 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-19 12:56:22,340 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-19 12:56:22,340 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-19 12:56:22,344 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-19 12:56:22,423 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-19 12:56:23,748 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-19 12:56:23,788 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-19 12:56:23,792 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-19 12:56:25,588 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-19 12:56:28,624 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-19 12:56:28,626 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-19 12:56:28,632 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-19 12:56:32,517 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-19 12:56:32,608 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-19 12:56:34,219 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-19 12:56:34,403 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: SmallBusinessChecking
+2025-11-19 12:56:34,404 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-19 12:56:34,442 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-19 12:56:35,578 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-19 12:56:36,683 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-19 12:56:40,137 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-19 12:56:41,164 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-19 12:56:41,266 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=PatilSMB, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-19 12:56:43,103 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-19 12:56:43,242 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-19 12:56:43,242 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-19 12:56:43,243 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-19 12:56:43,557 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-19 12:56:44,573 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-19 12:56:46,785 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-19 12:56:46,859 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-19 12:56:47,868 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-19 12:56:51,206 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-19 12:56:57,760 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-19 12:56:57,791 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-19 12:56:57,823 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-19 12:56:58,962 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-19 12:56:58,975 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-19 12:56:59,067 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-19 12:56:59,174 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-19 12:56:59,174 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-19 12:57:00,295 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-19 12:57:01,432 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-19 12:57:02,823 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-19 12:57:02,823 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-19 12:57:02,823 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-19 12:57:04,169 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:07,580 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:08,614 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-19 12:57:09,936 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:11,106 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-19 12:57:12,118 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-19 12:57:13,841 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-19 12:57:15,060 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-19 12:57:15,755 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-19 12:57:16,548 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-19 12:57:17,230 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-19 12:57:17,231 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-19 12:57:18,289 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-19 12:57:18,357 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-19 12:57:20,535 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:20,601 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-19 12:57:20,694 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //button[normalize-space()='Next']]
+2025-11-19 12:57:28,628 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-19 12:57:29,744 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-19 12:57:30,937 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-19 12:57:31,161 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-19 12:57:31,322 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-19 12:57:31,434 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-19 12:57:33,283 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:38,290 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:38,688 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-19 12:57:39,693 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-19 12:57:41,390 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-19 12:57:42,707 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-19 12:57:42,899 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-19 12:57:43,125 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-19 12:57:44,133 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:46,412 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-19 12:57:47,347 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:47,804 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-19 12:57:48,072 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-19 12:57:48,262 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-19 12:57:48,264 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-19 12:57:48,385 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-19 12:57:48,386 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPMemberType
+2025-11-19 12:57:49,481 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 12:57:51,541 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-19 12:57:51,838 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-19 12:58:14,398 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-19 12:58:17,886 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox
+2025-11-19 12:58:18,934 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+2025-11-19 12:58:19,020 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox selected
+2025-11-19 12:58:20,023 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering Relationship percentage if existed entered
+2025-11-19 12:58:22,235 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer
+2025-11-19 12:58:23,301 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //tf-checkbox-group[@t-model='ApplicantRole__c']]
+2025-11-19 12:58:23,373 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer checkbox selected
+2025-11-19 12:58:24,382 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure
+2025-11-19 12:58:25,449 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (95b4f1f0f9b4dfb103a97b3343a850b7)] -> xpath: //tf-checkbox[@t-model='Accepted__c']]
+2025-11-19 12:58:25,507 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure selected
+2025-11-19 12:58:25,507 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-19 12:58:25,536 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicking on personal Info Next button
+2025-11-19 12:58:58,105 [TestNG-PoolService-0] ERROR com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - failed to close the close button
+2025-11-19 12:58:58,136 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbRelationPageStepDefinition - i am on relation page
+2025-11-19 12:58:58,202 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbMemberDiligencePageStepDefinition - i am on Due dillegence page
+2025-11-19 13:05:08,289 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-19 13:05:08,289 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-19 13:05:08,305 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-19 13:05:08,311 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-19 13:05:08,314 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-19 13:05:08,314 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-19 13:05:08,314 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-19 13:05:08,354 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-19 13:05:09,439 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-19 13:05:09,458 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-19 13:05:09,473 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-19 13:05:10,777 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-19 13:05:15,250 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-19 13:05:15,251 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-19 13:05:15,257 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-19 13:05:19,622 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-19 13:05:19,721 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-19 13:05:20,987 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-19 13:05:21,264 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: SmallBusinessChecking
+2025-11-19 13:05:21,265 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-19 13:05:21,295 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-19 13:05:22,377 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-19 13:05:23,482 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-19 13:05:26,846 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-19 13:05:27,891 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-19 13:05:27,997 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=PatilSMB, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-19 13:05:29,909 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-19 13:05:30,023 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-19 13:05:30,023 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-19 13:05:30,024 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-19 13:05:30,345 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-19 13:05:31,352 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-19 13:05:33,524 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-19 13:05:33,612 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-19 13:05:34,615 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-19 13:05:37,972 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-19 13:05:43,927 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-19 13:05:43,943 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-19 13:05:43,959 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-19 13:05:45,090 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-19 13:05:45,099 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-19 13:05:45,220 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-19 13:05:45,380 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-19 13:05:45,380 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-19 13:05:46,527 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-19 13:05:47,660 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-19 13:05:49,021 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-19 13:05:49,021 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-19 13:05:49,022 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-19 13:05:50,352 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:05:53,779 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:05:54,810 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-19 13:05:56,168 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:05:57,313 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-19 13:05:58,333 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-19 13:06:00,010 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-19 13:06:01,210 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-19 13:06:01,920 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-19 13:06:02,711 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-19 13:06:03,399 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-19 13:06:03,400 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-19 13:06:04,455 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-19 13:06:04,523 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-19 13:06:06,650 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:06:06,722 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-19 13:06:06,836 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //button[normalize-space()='Next']]
+2025-11-19 13:06:15,155 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-19 13:06:16,303 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-19 13:06:17,485 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-19 13:06:17,698 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-19 13:06:17,873 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-19 13:06:18,017 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-19 13:06:19,865 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:06:24,856 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:06:25,269 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-19 13:06:26,271 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-19 13:06:27,972 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-19 13:06:29,322 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-19 13:06:29,510 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-19 13:06:29,758 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-19 13:06:30,748 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:06:33,061 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-19 13:06:33,998 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:06:34,472 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-19 13:06:34,737 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-19 13:06:34,894 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-19 13:06:34,894 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-19 13:06:35,013 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-19 13:06:35,014 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPMemberType
+2025-11-19 13:06:36,064 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:06:38,126 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-19 13:06:38,499 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-19 13:06:56,748 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-19 13:07:00,235 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox
+2025-11-19 13:07:01,306 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+2025-11-19 13:07:02,420 [TestNG-PoolService-0] ERROR com.cztffa.browseractions.BrowserActions - element click intercepted: Element <input type="checkbox" id="Isabeneficialowner25orgreater-12-input" value="true" tabindex="0" aria-labelledby="Isabeneficialowner25orgreater-12-label" aria-invalid="false"> is not clickable at point (877, 11). Other element would receive the click: <div class="dropdown-item" tabindex="0" id="tf-option-1146" role="option" aria-selected="false">...</div>
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b9b88afffb38fd3455da8615c0ee8f9d, clickElement {id=f.CD6AB31B788901A3B6CFD95D2DDF74A7.d.B91B3DD071433F8D237A585A255C825D.e.228}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51459}, goog:processID: 4752, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51459/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b9b88afffb38fd3455da8615c0ee8f9d)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+Session ID: b9b88afffb38fd3455da8615c0ee8f9d
+2025-11-19 13:07:02,422 [TestNG-PoolService-0] ERROR com.cztffa.exception.UXException - element click intercepted: Element <input type="checkbox" id="Isabeneficialowner25orgreater-12-input" value="true" tabindex="0" aria-labelledby="Isabeneficialowner25orgreater-12-label" aria-invalid="false"> is not clickable at point (877, 11). Other element would receive the click: <div class="dropdown-item" tabindex="0" id="tf-option-1146" role="option" aria-selected="false">...</div>
+No cause returned
+2025-11-19 13:07:02,422 [TestNG-PoolService-0] INFO com.cztffa.application.AbstractWebApplication - Capturing screenshot as ./Screenshots/capture.png
+2025-11-19 13:07:02,532 [TestNG-PoolService-0] WARN com.cztffa.application.AbstractWebApplication - Failed to delete screenshot - capture.png
+2025-11-19 13:07:02,553 [TestNG-PoolService-0] WARN com.cztffa.application.AbstractWebApplication - Failed to delete Report Portal screenshot - rp_capture.png
+2025-11-19 13:07:02,554 [TestNG-PoolService-0] INFO com.cztffa.exception.UXException - Finished the attempt to capture a screenshot
+2025-11-19 13:07:02,706 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Finished scenario Happy flow of single business scenario "1"
+2025-11-19 13:07:02,707 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Final line it got executed 45 
+2025-11-19 13:07:02,707 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Status of the scenario FAILED 
+2025-11-19 13:07:02,970 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-19 13:07:02,970 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-19 13:07:02,970 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case element click intercepted: Element <input type="checkbox" id="Isabeneficialowner25orgreater-12-input" value="true" tabindex="0" aria-labelledby="Isabeneficialowner25orgreater-12-label" aria-invalid="false"> is not clickable at point (877, 11). Other element would receive the click: <div class="dropdown-item" tabindex="0" id="tf-option-1146" role="option" aria-selected="false">...</div>
+No cause returned
+2025-11-19 13:07:50,104 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-19 13:07:50,117 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition - [@SMBFlow]
+2025-11-19 13:07:50,119 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.consumer.ProductStepDefinition -  tag name ============ @SMBFlow
+2025-11-19 13:07:50,119 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting scenario Happy flow of single business scenario "1" 
+2025-11-19 13:07:50,119 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Starting of home page
+2025-11-19 13:07:50,119 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Initializing the properties
+2025-11-19 13:07:50,131 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Successfully loaded the properties
+2025-11-19 13:07:50,178 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.cache.ResolutionCache - Clearing WebDriverManager resolution cache
+2025-11-19 13:07:51,206 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 142.0.7444.175 (resolved driver for Chrome 142)
+2025-11-19 13:07:51,248 [TestNG-PoolService-0] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\LENOVO\.cache\selenium\chromedriver\win64\142.0.7444.175\chromedriver.exe
+2025-11-19 13:07:51,253 [TestNG-PoolService-0] INFO com.cztffa.webbrowser.ChromeBrowserSetupImpl - Launching chrome driver
+2025-11-19 13:07:52,486 [TestNG-PoolService-0] INFO com.cztffa.application.ChromeWebApplication - Chrome launched
+2025-11-19 13:07:56,696 [TestNG-PoolService-0] INFO com.cztffa.driver.SeleniumUIDriver - Application launched
+2025-11-19 13:07:56,696 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - loaded home page 
+2025-11-19 13:07:56,700 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Before click of business tab
+2025-11-19 13:08:01,061 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //h2[contains(text(),'Business')]]
+2025-11-19 13:08:01,159 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicking all products for submissionId: 1
+2025-11-19 13:08:03,338 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: NonProfitChecking
+2025-11-19 13:08:03,499 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked product: SmallBusinessChecking
+2025-11-19 13:08:03,501 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - Clicked on all products
+2025-11-19 13:08:03,526 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - On click of checkout btn
+2025-11-19 13:08:04,647 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //button[normalize-space()='Checkout']]
+2025-11-19 13:08:05,741 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbProductSelectorStepDefinition - After click of checkout btn
+2025-11-19 13:08:09,157 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - On getting started page
+2025-11-19 13:08:10,224 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before filling the details
+2025-11-19 13:08:10,367 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Entering details: Person(firstName=Amey, year=22, lastName=PatilSMB, percentage=44, middleName=Kumar, phoneNumber=4154657655, email=yterafinan@gmail.com, ssn=133424437, dob=01012000, motherName=Angel, securityWord=Security, streetAddress1=97 Sunfield Avenue, city=Edison, zip=08837, homePhone=null, workPhone=3802387246, occupation=Homemaker, employer=test, identificationNumber=12345678, issueDate=01012020, suffix=Sr, expiryDate=01012026, citizenShip=citizen, prefferedContactMethod=mobile, employmentStatus=Homemaker, prefferedId=Drivers License, membershipQualify=relate, memberName=TestUser, relationship=President, applicants=null, validation=null, ownershipPercentage=null, accountDetails=null, submissionId=1, stateIssued=Delaware, memberType=No)
+2025-11-19 13:08:12,241 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //tf-checkbox[@t-model='Accepted__c']//input]
+2025-11-19 13:08:12,355 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Details entered
+2025-11-19 13:08:12,355 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-19 13:08:12,356 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-19 13:08:12,681 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - after start button  click
+2025-11-19 13:08:13,691 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure
+2025-11-19 13:08:15,887 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //label[contains(text(),'I acknowledge and understand the information above.')]]
+2025-11-19 13:08:15,979 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Accepted
+2025-11-19 13:08:16,994 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Before you begin disclosure Proceed button
+2025-11-19 13:08:20,339 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicked on Proceed button
+2025-11-19 13:08:26,318 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  i am on business info page
+2025-11-19 13:08:26,359 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition -  business info page validated
+2025-11-19 13:08:26,381 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-19 13:08:27,522 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting the business type dropdown
+2025-11-19 13:08:27,533 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //label[contains(text(), 'Business Type')]/following::input[@role='combobox' and contains(@class, 'form-select')][1]]
+2025-11-19 13:08:27,612 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selecting BusinessType
+2025-11-19 13:08:27,718 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - business type selected
+2025-11-19 13:08:27,718 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering business name
+2025-11-19 13:08:28,842 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering DBA name
+2025-11-19 13:08:29,989 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering date of establishment
+2025-11-19 13:08:31,361 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - date of establishment entered
+2025-11-19 13:08:31,362 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - i am at the select address place
+2025-11-19 13:08:31,363 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - selected street address dropdown ::97 Sunfield Avenue
+2025-11-19 13:08:32,699 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:08:36,125 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:08:37,138 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - before addresstext
+2025-11-19 13:08:38,480 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:08:39,665 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - after addresstext
+2025-11-19 13:08:40,679 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Entering year
+2025-11-19 13:08:42,404 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering mobile phone no
+2025-11-19 13:08:43,636 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering email
+2025-11-19 13:08:44,314 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entering TIN
+2025-11-19 13:08:45,081 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Inner spinner have disappeared.
+2025-11-19 13:08:45,736 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - entered TIN
+2025-11-19 13:08:45,737 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Accepting Disclosure
+2025-11-19 13:08:46,799 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.1']//tf-checkbox[@t-model='Accepted__c']]
+2025-11-19 13:08:46,870 [TestNG-PoolService-0] INFO com.cztffa.page.businessinfo.BusinessInfoPage - Disclosure Accepted
+2025-11-19 13:08:49,059 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:08:49,122 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbBusinessPageStepDefinition - Business Information added for submissionId: 1
+2025-11-19 13:08:49,226 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //button[normalize-space()='Next']]
+2025-11-19 13:08:56,443 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Navigated to personal information page
+2025-11-19 13:08:57,573 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - validation before setting Validation(skipQualifyButton=false, skipCitizenshipDropDown=false, skipStateDropdown=false, skipEmploymentStatusDropdown=true, skipPreferredContactDropdown=true, skipStateIssuedDropdown=false, skipMemberDiligenceOptions=false, skipQualifyCountry=false)
+2025-11-19 13:08:58,739 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering first name
+2025-11-19 13:08:58,920 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering middle name
+2025-11-19 13:08:59,068 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering last name
+2025-11-19 13:08:59,197 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting street address dropdown ::97 Sunfield Avenue
+2025-11-19 13:09:01,049 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:09:06,035 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:09:06,439 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - After entering Zipcode
+2025-11-19 13:09:07,452 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering year
+2025-11-19 13:09:09,169 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering mobile phone no
+2025-11-19 13:09:10,499 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering work phone no
+2025-11-19 13:09:10,686 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering email
+2025-11-19 13:09:10,933 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting idType method Drivers License
+2025-11-19 13:09:11,960 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:09:14,221 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - selecting stateIssued dropdown 
+2025-11-19 13:09:15,147 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:09:15,559 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering date of birth
+2025-11-19 13:09:15,851 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - entering SSN
+2025-11-19 13:09:16,049 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - SSN entered
+2025-11-19 13:09:16,049 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Select PEP Answer
+2025-11-19 13:09:16,166 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEP answer Selected
+2025-11-19 13:09:16,166 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - PEPMemberType
+2025-11-19 13:09:17,224 [TestNG-PoolService-0] INFO com.cztffa.page.base.SmbBasePage - Selected element (dropdown value or checkbox)
+2025-11-19 13:09:19,287 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Clicking next button
+2025-11-19 13:09:19,613 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-19 13:09:38,444 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - clicked on Personal info
+2025-11-19 13:09:41,928 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox
+2025-11-19 13:09:42,961 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //tf-checkbox[@t-model='CZIsBeneficialOwner__c']//input]
+2025-11-19 13:09:43,050 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is BO checkbox selected
+2025-11-19 13:09:44,065 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Entering Relationship percentage if existed entered
+2025-11-19 13:09:46,246 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer
+2025-11-19 13:09:47,295 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //tf-checkbox-group[@t-model='ApplicantRole__c']]
+2025-11-19 13:09:47,364 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - is signer checkbox selected
+2025-11-19 13:09:51,454 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure0
+2025-11-19 13:09:52,493 [TestNG-PoolService-0] INFO com.cztffa.browseractions.BrowserActions - Attempting to click: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //tf-checkbox[@t-model='Accepted__c']]
+2025-11-19 13:09:52,564 [TestNG-PoolService-0] INFO com.cztffa.page.personalinfo.SmbPersonalInfoPage - Relationship page disclosure selected
+2025-11-19 13:09:52,566 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Personal Information added for submissionId: 1
+2025-11-19 13:09:52,605 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbPersonalPageStepDefinition - Clicking on personal Info Next button
+2025-11-19 13:09:54,096 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Finished scenario Happy flow of single business scenario "1"
+2025-11-19 13:09:54,096 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Final line it got executed 45 
+2025-11-19 13:09:54,097 [TestNG-PoolService-0] INFO com.cztffa.cucumber.parallel.smb.SmbHomePageStepDefinition - Status of the scenario FAILED 
+2025-11-19 13:09:54,361 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Testcase file:///C:/Users/LENOVO/IdeaProjects/wsfs_business/src/test/resources/com/cztffa/cucumber/smb_digital_parallel/SMB.featureio.cucumber.plugin.event.Location@939 - FAILED
+2025-11-19 13:09:54,361 [TestNG-PoolService-0] INFO com.cztffa.utilities.MyTestListener - Test Case scenario Happy flow of single business scenario "1" execution Finished with the status FAILED
+2025-11-19 13:09:54,361 [TestNG-PoolService-0] ERROR com.cztffa.utilities.MyTestListener - error occured while executing the test case Failed to click element: element click intercepted: Element is not clickable at point (1053, 581)
+  (Session info: chrome=142.0.7444.135)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [503193206f4bf8b0ca2eef588ba4e237, clickElement {id=f.B9318F4507FB51829E10C95A2BCBA6F1.d.9EA169AE1576609435792D041B0062E2.e.278}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 142.0.7444.135, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63702}, goog:processID: 24676, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63702/devtoo..., se:cdpVersion: 142.0.7444.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (503193206f4bf8b0ca2eef588ba4e237)] -> xpath: //button[normalize-space()='Next']]
+Session ID: 503193206f4bf8b0ca2eef588ba4e237

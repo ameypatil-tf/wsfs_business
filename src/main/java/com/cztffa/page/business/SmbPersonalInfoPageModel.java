@@ -52,7 +52,7 @@ public class SmbPersonalInfoPageModel {
 
     public String IamNotSubjectTo = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-checkbox[@t-model='Accepted__c']";
 
-    public String IsPEPPresent = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.0']//tf-radio-group[@t-model='Is_PEP_Present']//tf-radio//span[contains(text(),'Yes')]";
+    public String IsPEPPresent = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.0']//tf-radio-group[@t-model='Is_PEP_Present']//tf-radio//span[contains(text(),'No')]";
 
     public String PEPMemberType = "//tf-expansion-panel[@t-model='Submission__c.PartyXrefs__r.%s']//tf-dropdown[@t-model='PEP_Member_Type']//input";
 
