@@ -95,7 +95,10 @@ public class SmbReviewPageStepDefinition {
                         }
                         browserActions.switchToDefaultContent(seleniumdriver);
                     }
-
+                    if(smbReviewPage.getSeleniumdriver().getWebDriver().getPageSource().contains("BUSINESS RESOLUTION")){
+                        Thread.sleep(2000);
+                        browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().acceptBtn);
+                    }
 //                    }
                 } catch (Exception e) {
                     break;
@@ -106,8 +109,8 @@ public class SmbReviewPageStepDefinition {
             }
         }
         Thread.sleep(3000);
-        browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().acceptBtn);
-        Thread.sleep(1000);
+//        browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().acceptBtn);
+//        Thread.sleep(1000);
     }
 
     @And(": I click on review details submit button for smb")
