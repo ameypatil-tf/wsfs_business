@@ -3,7 +3,7 @@ fundingAmount,fundingType,cardNumber,cardHolderName,expiryDate,cvv,zipCode,stree
 5555,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,6,1
 3333,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,3,2
 5555,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,6,3
-3333,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,3,4
+5555,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,6,4
 5555,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,6,5
-3333,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,3,6
-3333,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,3,7
+5555,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,6,6
+5555,external,4421440000403866,John Doe,29/29,323,32456,12300 Bermuda Road,From,Chase,user_good,pass_good,sb-rodrv119...@personal.example.com,Terafina@2022!,6,7

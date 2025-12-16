@@ -190,7 +190,8 @@ public class BusinessInfoPage extends SmbProductSelectorPage {
                     business.getSsn());
             log.info("entered ssn");
         } else if (business.getBusinessType().equalsIgnoreCase("Limited Liability Company") ||
-                business.getBusinessType().equalsIgnoreCase("Corporation")||business.getBusinessType().equalsIgnoreCase("General Partnership")) {
+                business.getBusinessType().equalsIgnoreCase("Corporation")||business.getBusinessType().equalsIgnoreCase("General Partnership") || business.getBusinessType().equalsIgnoreCase("Limited Partnership"))
+        {
 
             log.info("entering TIN");
             browserActions.clickApply(getSeleniumdriver().getWebDriver(),

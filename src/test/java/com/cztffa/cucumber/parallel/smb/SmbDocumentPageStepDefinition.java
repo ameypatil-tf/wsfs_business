@@ -52,12 +52,12 @@ public class SmbDocumentPageStepDefinition {
 
             // Define file paths (extend if needed)
             String[] files = {
-                    "C:\\Users\\LENOVO\\IdeaProjects\\wsfs_business\\IDFiles\\dummy pdf.pdf",
-                    "C:\\Users\\LENOVO\\IdeaProjects\\wsfs_business\\IDFiles\\dummy pdf.pdf",
-                    "C:\\Users\\LENOVO\\IdeaProjects\\wsfs_business\\IDFiles\\dummy pdf.pdf",
-                    "C:\\Users\\LENOVO\\IdeaProjects\\wsfs_business\\IDFiles\\dummy pdf.pdf",
-                    "C:\\Users\\LENOVO\\IdeaProjects\\wsfs_business\\IDFiles\\dummy pdf.pdf",
-                    "C:\\Users\\LENOVO\\IdeaProjects\\wsfs_business\\IDFiles\\dummy pdf.pdf"
+                    "C:\\Users\\ap250818\\IdeaProjects\\wsfs_business\\IDFiles\\dummy.pdf",
+                    "C:\\Users\\ap250818\\IdeaProjects\\wsfs_business\\IDFiles\\dummy.pdf",
+                    "C:\\Users\\ap250818\\IdeaProjects\\wsfs_business\\IDFiles\\dummy.pdf",
+                    "C:\\Users\\ap250818\\IdeaProjects\\wsfs_business\\IDFiles\\dummy.pdf",
+                    "C:\\Users\\ap250818\\IdeaProjects\\wsfs_business\\IDFiles\\dummy.pdf",
+                    "C:\\Users\\ap250818\\IdeaProjects\\wsfs_business\\IDFiles\\dummy.pdf"
             };
 
             // Find all upload buttons
