@@ -15,6 +15,9 @@ public class Person {
     private String percentage;
 	private String middleName;
 
+    private String prefix;
+    private String suffix;
+
 	private String phoneNumber;
 
 	private String email;
@@ -45,7 +48,7 @@ public class Person {
 
 	private String issueDate;
 
-	private String suffix;
+//	private String suffix;
 
 	private String expiryDate;
 

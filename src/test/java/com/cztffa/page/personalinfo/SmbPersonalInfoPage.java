@@ -76,6 +76,21 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
 //        WebElement firstName = applicantUtil.getWebElement(getSeleniumdriver(),getSmbPersonalInfoPageModel().firstName, index);
 //        wait(firstName);
 
+        waitForSpinnerToDisappear();
+//        if ((element(getSmbPersonalInfoPageModel().prefix, index)).isEnabled()) {
+
+        log.info("Entering prefix");
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
+                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().prefix, index));
+            log.info("selecting employment method {}", person.getPrefix());
+            //if (person.getEmploymentStatus().equalsIgnoreCase("Employed")){
+            WebElement PrefixText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getPrefix());
+            browserActions.clickApply(getSeleniumdriver().getWebDriver(),
+                    PrefixText);
+            assertTrue(true);
+//        }
+
+
 
         waitForSpinnerToDisappear();
         waitWithSpinner(element(getSmbPersonalInfoPageModel().firstName, index));
@@ -95,6 +110,18 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
         browserActions.enterText(getSeleniumdriver(),
                 element(getSmbPersonalInfoPageModel().lastName, index),
                 person.getLastName());
+
+
+        log.info("Entering suffix");
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
+                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().suffix, index));
+        log.info("selecting employment method {}", person.getSuffix());
+        //if (person.getEmploymentStatus().equalsIgnoreCase("Employed")){
+        WebElement SuffixText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().addressText, person.getSuffix());
+        browserActions.clickApply(getSeleniumdriver().getWebDriver(),
+                SuffixText);
+        assertTrue(true);
+//        }
 
         log.info("selecting street address dropdown ::" + person.getStreetAddress1());
         WebElement streetAddress1 = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().streetAddress1, index);
@@ -180,20 +207,24 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
                 applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().idNumber, index),
                 person.getIdentificationNumber());
 
-        log.info("selecting stateIssued dropdown ");
-        browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
-        wait(element(getSmbPersonalInfoPageModel().stateIssued, index));
-        browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
+        if (getSeleniumdriver().getWebDriver().getPageSource().contains("State Issued")) {
+            log.info("selecting stateIssued dropdown ");
+            browserActions.scrollToWebElement(getSeleniumdriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
+            wait(element(getSmbPersonalInfoPageModel().stateIssued, index));
+            browserActions.clickApply(getSeleniumdriver().getWebDriver(), applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateIssued, index));
 
-        WebElement stateText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateText, person.getStateIssued());
-        browserActions.scrollToWebElement(getSeleniumdriver(), stateText);
-        wait(stateText);
-        selectElement(getSeleniumdriver().getWebDriver(), stateText);
-        stateText.click();
-        wait(element(getSmbPersonalInfoPageModel().issueDate, index));
-        browserActions.enterTextKeyEntry(getSeleniumdriver(),
-                applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().issueDate, index),
-                person.getIssueDate());
+            WebElement stateText = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().stateText, person.getStateIssued());
+            browserActions.scrollToWebElement(getSeleniumdriver(), stateText);
+            wait(stateText);
+            selectElement(getSeleniumdriver().getWebDriver(), stateText);
+            stateText.click();
+        }
+        if (getSeleniumdriver().getWebDriver().getPageSource().contains("Issue Date")) {
+            wait(element(getSmbPersonalInfoPageModel().issueDate, index));
+            browserActions.enterTextKeyEntry(getSeleniumdriver(),
+                    applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().issueDate, index),
+                    person.getIssueDate());
+        }
         wait(element(getSmbPersonalInfoPageModel().expiryDate, index));
         browserActions.enterTextKeyEntry(getSeleniumdriver(),
                 applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().expiryDate, index),

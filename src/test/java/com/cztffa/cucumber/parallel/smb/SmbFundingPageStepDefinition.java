@@ -74,8 +74,9 @@ public class SmbFundingPageStepDefinition {
                 Funding funding = objectMapper.readValue(jsonObject.toString(), Funding.class);
                 smbReviewPage.addFundDetailsForSMB(funding);
                 log.info("Funding added for submissionId: " + submissionId);
+                break;
             }
-//            break;
+//
         }
         log.info("Funding Page Completed for submissionId: " + submissionId);
     }

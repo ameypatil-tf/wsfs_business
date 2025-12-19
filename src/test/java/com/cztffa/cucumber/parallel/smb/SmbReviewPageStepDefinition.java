@@ -44,6 +44,7 @@ public class SmbReviewPageStepDefinition {
         browserActions.scrollToWebElement(seleniumdriver, smbReviewPage.getSmbReviewPageModel().disclosureCheckbox);
 
         WebDriver driver = seleniumdriver.getWebDriver();
+
         String mainWindow = driver.getWindowHandle();
         int index = 2;
         while(true) {
@@ -77,7 +78,16 @@ public class SmbReviewPageStepDefinition {
                         log.info("Inside frame");
                         try {
                             Thread.sleep(11000);
-                            WebElement element1 = driver.findElement(By.xpath("//div[contains(text(),'Sign')]"));
+
+//                            if (Seleniumdriver().getWebDriver().getPageSource().contains("Issue Date")) {
+                                log.info("Clicking on modalcheckbox Button");
+                                browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbReviewPageModel().modalCheckbox);
+//                            Thread.sleep(2000);
+                                log.info("Clicking on modal continue Button");
+                                browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbReviewPageModel().modalCnt);
+                                Thread.sleep(2000);
+//                            }
+                            WebElement element1 = driver.findElement(By.xpath("//button//span[contains(text(),'Adopt and Sign')]"));
                             browserActions.scrollToWebElement(seleniumdriver, element1);
                             Thread.sleep(2000);
                             browserActions.clickApply(driver, element1);
