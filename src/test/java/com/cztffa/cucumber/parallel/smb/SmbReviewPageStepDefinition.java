@@ -79,21 +79,35 @@ public class SmbReviewPageStepDefinition {
                         try {
                             Thread.sleep(11000);
 
-//                            if (Seleniumdriver().getWebDriver().getPageSource().contains("Issue Date")) {
+                            if (seleniumdriver.getWebDriver().getPageSource().contains("Other Options")) {
                                 log.info("Clicking on modalcheckbox Button");
                                 browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbReviewPageModel().modalCheckbox);
 //                            Thread.sleep(2000);
                                 log.info("Clicking on modal continue Button");
                                 browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbReviewPageModel().modalCnt);
                                 Thread.sleep(2000);
-//                            }
-                            WebElement element1 = driver.findElement(By.xpath("//button//span[contains(text(),'Adopt and Sign')]"));
+                            }
+                            if (seleniumdriver.getWebDriver().getPageSource().contains("Adopt and Sign")){
+                                WebElement element1 = driver.findElement(By.xpath("//button//span[contains(text(),'Adopt and Sign')]"));
                             browserActions.scrollToWebElement(seleniumdriver, element1);
                             Thread.sleep(2000);
                             browserActions.clickApply(driver, element1);
+
+
+
+
+
                             Thread.sleep(2000);
                             log.info("Selecting AdoptAndSignBtn");
+                        }
 
+                            if (seleniumdriver.getWebDriver().getPageSource().contains("sign")) {
+                                WebElement element2 = driver.findElement(By.xpath("//div[contains(text(),'Sign')]"));
+                                browserActions.scrollToWebElement(seleniumdriver, element2);
+                                Thread.sleep(2000);
+                                browserActions.clickApply(driver, element2);
+                                Thread.sleep(2000);
+                            }
                             log.info("Clicking on Finish Button");
                             browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().finishBtn);
                             Thread.sleep(2000);
