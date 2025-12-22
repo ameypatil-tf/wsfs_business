@@ -77,7 +77,7 @@ public class SmbReviewPageStepDefinition {
                         // Click inside iframe
                         log.info("Inside frame");
                         try {
-                            Thread.sleep(11000);
+                            Thread.sleep(12000);
 
                             if (seleniumdriver.getWebDriver().getPageSource().contains("Other Options")) {
                                 log.info("Clicking on modalcheckbox Button");
@@ -87,19 +87,6 @@ public class SmbReviewPageStepDefinition {
                                 browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbReviewPageModel().modalCnt);
                                 Thread.sleep(2000);
                             }
-                            if (seleniumdriver.getWebDriver().getPageSource().contains("Adopt and Sign")){
-                                WebElement element1 = driver.findElement(By.xpath("//button//span[contains(text(),'Adopt and Sign')]"));
-                            browserActions.scrollToWebElement(seleniumdriver, element1);
-                            Thread.sleep(2000);
-                            browserActions.clickApply(driver, element1);
-
-
-
-
-
-                            Thread.sleep(2000);
-                            log.info("Selecting AdoptAndSignBtn");
-                        }
 
                             if (seleniumdriver.getWebDriver().getPageSource().contains("sign")) {
                                 WebElement element2 = driver.findElement(By.xpath("//div[contains(text(),'Sign')]"));
@@ -108,6 +95,15 @@ public class SmbReviewPageStepDefinition {
                                 browserActions.clickApply(driver, element2);
                                 Thread.sleep(2000);
                             }
+
+                            if (seleniumdriver.getWebDriver().getPageSource().contains("Adopt and Sign")){
+                                WebElement element1 = driver.findElement(By.xpath("//button//span[contains(text(),'Adopt and Sign')]"));
+                                browserActions.scrollToWebElement(seleniumdriver, element1);
+                                Thread.sleep(2000);
+                                browserActions.clickApply(driver, element1);
+                                Thread.sleep(2000);
+                                log.info("Selecting AdoptAndSignBtn");
+                            }
                             log.info("Clicking on Finish Button");
                             browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().finishBtn);
                             Thread.sleep(2000);
@@ -115,15 +111,14 @@ public class SmbReviewPageStepDefinition {
                             Thread.sleep(9000);
                             smbReviewPage.spinner();
                         } catch (Exception e) {
-                            log.error("No sign button");
-                        }
-                        browserActions.switchToDefaultContent(seleniumdriver);
+                                log.error("No sign button");
+                            }
+                            browserActions.switchToDefaultContent(seleniumdriver);
                     }
                     if(smbReviewPage.getSeleniumdriver().getWebDriver().getPageSource().contains("BUSINESS RESOLUTION")){
                         Thread.sleep(2000);
                         browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().acceptBtn);
                     }
-//                    }
                 } catch (Exception e) {
                     break;
                 }
