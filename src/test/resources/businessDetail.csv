@@ -1,8 +1,9 @@
 businessName,businessType,phoneNumber,email,ssn,tinNumber,securityWord,streetAddress1,doe,city,zip,identificationNumber,issueDate,expiryDate,prefferedId,naicsCode,year,dbaName,submissionId
-OneTech,Corporation,3802387248,test@test.com,887435437,887435433,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechOne,1
-TwoTech,General Partnership,3802387248,test@test.com,887435437,887435765,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechTwo,2
-ThreeTech,General Partnership,3802387248,test@test.com,887435437,887435734,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechThree,3
-FourTech,Corporation,3802387248,test@test.com,887435437,887435497,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechFour,4
-FiveTech,Corporation,3802387248,test@test.com,887435437,887435436,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechFive,5
-SixTech,Corporation,3802387248,test@test.com,887435437,887435098,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechSix,6
-SevenTech,Corporation,3802387248,test@test.com,887435437,887435345,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechSeven,7
+OneTech,Corporation,3802387248,test@test.com,887428376,887439827,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechOne,1
+TwoTech,Corporation,3802387248,test@test.com,887473487,887433788,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechTwo,2
+ThreeTech,Corporation,3802387248,test@test.com,884884937,887092534,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechThree,3
+FourTech,Corporation,3802387248,test@test.com,887489757,887443647,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechFour,4
+FiveTech,Corporation,3802387248,test@test.com,887446897,887424676,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechFive,5
+
+SixTech,General Partnership,3802387248,test@test.com,887448787,887453848,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechSix,6
+SevenTech,General Partnership,3802387248,test@test.com,889937437,888289345,Security,97 Sunfield Avenue,01012000,Edison,08837,12345678,01012020,01012029,ssn,Soybean Farming,22,DBATechSeven,7

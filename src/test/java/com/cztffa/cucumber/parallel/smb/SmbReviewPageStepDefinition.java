@@ -104,6 +104,18 @@ public class SmbReviewPageStepDefinition {
                                 Thread.sleep(2000);
                                 log.info("Selecting AdoptAndSignBtn");
                             }
+                            Thread.sleep(2000);
+
+                            if (seleniumdriver.getWebDriver().getPageSource().contains("PREVIEW")){
+                                log.info("enetering Adopt and sign");
+                                WebElement element1 = driver.findElement(By.xpath("//button//span[contains(text(),'Adopt and Sign')]"));
+                                browserActions.scrollToWebElement(seleniumdriver, element1);
+                                Thread.sleep(2000);
+                                browserActions.clickApply(driver, element1);
+                                Thread.sleep(2000);
+                                log.info("Selecting AdoptAndSignBtn");
+                            }
+
                             log.info("Clicking on Finish Button");
                             browserActions.clickButton(seleniumdriver, smbReviewPage.getSmbDisclosurePageModel().finishBtn);
                             Thread.sleep(2000);

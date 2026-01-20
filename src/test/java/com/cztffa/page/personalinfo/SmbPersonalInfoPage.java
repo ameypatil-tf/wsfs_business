@@ -121,7 +121,8 @@ public class SmbPersonalInfoPage extends BusinessInfoPage {
         browserActions.clickApply(getSeleniumdriver().getWebDriver(),
                 SuffixText);
         assertTrue(true);
-//        }
+
+        /////// }
 
         log.info("selecting street address dropdown ::" + person.getStreetAddress1());
         WebElement streetAddress1 = applicantUtil.getWebElement(getSeleniumdriver(), getSmbPersonalInfoPageModel().streetAddress1, index);
