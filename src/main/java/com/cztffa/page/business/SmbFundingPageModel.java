@@ -24,7 +24,7 @@ public class SmbFundingPageModel {
     @FindBy(xpath = "//iframe[@id='plaid-link-iframe-1']")
     public WebElement framePlaid;
 
-    @FindBy(xpath = "//button[normalize-space()='Continue as guest']")
+    @FindBy(xpath = "//button[normalize-space()='Continue without phone number']")
     public WebElement continueAsGuest;
 
     @FindBy(xpath = SmbFundingPageXpath.TERMVALUE)
